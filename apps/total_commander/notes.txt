@@ -1,0 +1,1 @@
+Copy < wincmd.ini > file to the directory [ C:\Users\marko\AppData\Roaming\GHISLER ].

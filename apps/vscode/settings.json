@@ -1,0 +1,82 @@
+{
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+
+    // Controls the font size in pixels.
+    "editor.fontSize": 12,
+
+    // Controls the font family.
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Segoe UI Emoji'",
+
+    // Controls the display of line numbers.
+    "editor.lineNumbers": "off",
+    "git.ignoreMissingGitWarning": true,
+
+    // Controls if the minimap is shown
+    "editor.minimap.enabled": false,
+
+    // Limit the width of the minimap to render at most a certain number of columns
+    "editor.minimap.maxColumn": 120,
+
+    // Render the actual characters on a line (as opposed to color blocks)
+    "editor.minimap.renderCharacters": true,
+
+    // Controls whether the minimap slider is automatically hidden.
+    "editor.minimap.showSlider": "mouseover",
+
+    // Controls the side where to render the minimap.
+    "editor.minimap.side": "right",
+    "workbench.statusBar.feedback.visible": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "team.showWelcomeMessage": false,
+    "materialTheme.fixIconsRunning": false,
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "left",
+
+    // Controls the sizing of editor tabs.
+    //  - fit: Always keep tabs large enough to show the full editor label.
+    //  - shrink: Allow tabs to get smaller when the available space is not enough to show all tabs at once.
+    "workbench.editor.tabSizing": "shrink",
+    "editor.renderWhitespace": "none",
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "tab.activeBorder": "#ff0000",
+        "tab.unfocusedActiveBorder": "#000000"
+    },
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 11,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.statusBar.visible": true,
+
+    // Configure file associations to languages (e.g. `"*.extension": "html"`). These have precedence over the default associations of the languages installed.
+    "files.associations": {
+        "*.dhtml": "html"
+    },
+    "terminal.integrated.fontFamily": "Lucida Console",
+    "terminal.integrated.fontWeightBold": "normal",
+    "markdown.preview.fontSize": 12,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "terminal.integrated.cursorBlinking": true,
+    "window.zoomLevel": -0.15,
+    "editor.cursorWidth": 4,
+    "workbench.tips.enabled": false,
+    "window.menuBarVisibility": "default",
+    "editor.formatOnSave": true,
+    "terminal.external.windowsExec": "cmd",
+    "prettier.tabWidth": 4,
+    "sync.gist": "ff0df78a6a627ed296bf025cd8861317",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "breadcrumbs.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.acceptSuggestionOnEnter": "off",
+    "workbench.iconTheme": "verdandi",
+    "editor.tabCompletion": "on",
+    "workbench.tree.indent": 20,
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}

@@ -1,0 +1,1 @@
+Copy content of ~/vim81 folder to directory [ C:\Program Files (x86)\Vim ].

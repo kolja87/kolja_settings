@@ -1,0 +1,1 @@
+Copy file < MXS_EditorUser.properties > to directory [ C:\Users\marko\AppData\Local\Autodesk\3dsMax\2018 - 64bit\ENU ]. 

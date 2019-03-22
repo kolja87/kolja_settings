@@ -1,0 +1,7 @@
+<Fragment name="Settings">
+  <items count="3">
+    <item name="0:Date" type_name="gh_date" type_code="8">636842795344115053</item>
+    <item name="0:Path" type_name="gh_string" type_code="10">C:\Users\marko\Desktop\maja\PD za Marka\Space Syntax.gh</item>
+    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+  </items>
+</Fragment>

@@ -1,0 +1,2 @@
+Copy < maxstart.max > file to the directory [ C:\Users\marko\Documents\3dsMax\scenes ].
+This is 3Ds max default scene file.

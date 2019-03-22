@@ -1,0 +1,2 @@
+Load this scripts from 3Ds max.
+Here are keyboard shortcuts, colors, ... and similar settings saved.

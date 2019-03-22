@@ -1,0 +1,1 @@
+Import and overwrite current keyboard shortcuts with ones from the < m1_keyboard.xml > file.

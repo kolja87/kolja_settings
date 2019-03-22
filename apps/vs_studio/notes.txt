@@ -1,0 +1,1 @@
+Load settings file < m1_vss_settings.vssettings > from Visual Studio.

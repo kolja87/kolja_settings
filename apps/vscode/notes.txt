@@ -1,0 +1,109 @@
+Copy < keybindings.json,settings.json > file to the directory [ C:\Users\marko\AppData\Roaming\Code\User ].
+
+Color theme      => Sublime Material Dark Theme
+File icons theme => Verdandi
+
+
+-----------------------------------------------------------------------------------------------------------
+
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.2.7
+--------------------
+GitHub Token: e858ae55dd724547aef6a6f3c760db3db6e7da6e
+GitHub Gist: ff0df78a6a627ed296bf025cd8861317
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+  extensions.json > extensions.json
+  keybindings.json > keybindings.json
+  settings.json > settings.json
+
+Extensions Ignored:
+  No extensions ignored.
+
+Extensions Removed:
+  No extensions removed.
+
+Extensions Added:
+  activitusbar v0.0.16
+  Angular-BeastCode v7.2.5
+  auto-close-tag v0.5.6
+  auto-rename-tag v0.0.15
+  autoimport v1.5.3
+  ayu v0.18.0
+  bracket-pair-colorizer v1.0.61
+  c-cpp-flylint v1.2.2
+  city-lights-icon-vsc v1.1.3
+  cmake v0.0.17
+  code-gnu-global v0.2.2
+  code-settings-sync v3.2.7
+  cpptools v0.22.1
+  csharp v1.17.1
+  dark-plus-material v2.0.4
+  debugger-for-chrome v4.11.3
+  docthis v0.7.1
+  file-icons v1.0.16
+  FlatUI v1.4.9
+  gitlens v9.5.1
+  html-css-class-completion v1.18.0
+  HTMLHint v0.6.0
+  JavaScriptSnippets v1.7.2
+  keen-neutral-icon-theme v1.0.7
+  language-maxscript v1.8.4
+  language-x86-64-assembly v2.2.11
+  latex-workshop v6.2.2
+  linux-themes v1.0.1
+  live-sass v3.0.0
+  LiveServer v5.5.1
+  MagicPython v1.1.0
+  markdown-preview-enhanced v0.3.13
+  material-icon-theme v3.6.3
+  material-palenight-theme v1.9.4
+  Material-theme v2.20.5
+  maxscript v0.0.2
+  mssql v1.4.0
+  node-module-intellisense v1.5.0
+  npm-link-status v0.0.3
+  prettier-vscode v1.8.1
+  project-manager v10.4.0
+  python v2019.2.5558
+  rib v0.1.1
+  rtf v2.0.1
+  shader v1.1.4
+  simple-react-snippets v1.2.2
+  status-bar-breadcrumb v0.3.1
+  stylelint v0.48.0
+  tabulous v0.4.0
+  team v1.149.2
+  terminal-tabs v0.2.0
+  theme-material-theme v1.0.1
+  theme-monokai-pro-vscode v1.1.12
+  theme-monolivia v1.0.3
+  theme-oceandeeper v0.1.0
+  theme-verdandi v1.9.0
+  vertical-tab-bar v1.0.0
+  vex v0.4.0
+  vs-keybindings v0.2.0
+  vsc-material-theme v2.8.1
+  vscode-clock v0.0.1
+  vscode-csharp-snippets v0.3.1
+  vscode-gitbuild v1.0.1
+  vscode-glsllint v0.0.5
+  vscode-great-icons v2.1.47
+  vscode-html-css v0.2.0
+  vscode-icon-theme v1.6.5
+  vscode-icons v8.3.0
+  vscode-icontheme-nomo-dark v1.3.6
+  vscode-markdownlint v0.25.0
+  vscode-npm-script v0.3.5
+  vscode-react-native v0.9.0
+  vscode-simple-icons v1.11.2
+  vscode-theme-onedark v2.1.0
+  vscode-theme-onelight v2.1.0
+  vscode-todo-highlight v1.0.4
+  vscode-usda-syntax v0.0.4
+  xml v2.4.0
+--------------------
+Done.

@@ -1,0 +1,1 @@
+Install thit file in 3Ds max and assign it to custom main menu called "[ rnd ]".

@@ -1,0 +1,1 @@
+Copy content of this folder to the [ C:\Users\marko\Documents\houdini17.0\config ] directory. 
