@@ -52,7 +52,7 @@
   <ShortcutItem CommandName="Image" CommandId="ID_OBJECTS_RASTER" Paths="Insert&gt;Import" />
   <ShortcutItem CommandName="Manage Images" CommandId="ID_EDIT_RASTER_SYMBOLS" Paths="Insert&gt;Import; Manage&gt;Manage Project" />
   <ShortcutItem CommandName="Import Family Types" CommandId="ID_IMPORT_FAM_TYPES" Paths="Insert&gt;Import" />
-  <ShortcutItem CommandName="Load Family; Load Framing Family; Load Shapes" CommandId="ID_FAMILY_LOAD" Paths="Insert&gt;Load from Library; Contextual Tabs&gt;Mode; Contextual Tabs&gt;Family" />
+  <ShortcutItem CommandName="Load Family; Load Framing Family; Load Shapes" CommandId="ID_FAMILY_LOAD" Shortcuts="IM" Paths="Insert&gt;Load from Library; Contextual Tabs&gt;Mode; Contextual Tabs&gt;Family" />
   <ShortcutItem CommandName="Load as Group" CommandId="ID_LOAD_GROUP" Paths="Insert&gt;Load from Library" />
   <ShortcutItem CommandName="Aligned Dimension" CommandId="ID_ANNOTATIONS_DIMENSION_ALIGNED" Shortcuts="DI" Paths="Annotate&gt;Dimension; Modify&gt;Measure; Create&gt;Dimension; Contextual Tabs&gt;Dimension; Quick Access Toolbar" />
   <ShortcutItem CommandName="Angular Dimension" CommandId="ID_ANNOTATIONS_DIMENSION_ANGULAR" Paths="Annotate&gt;Dimension; Modify&gt;Measure; Create&gt;Dimension; Contextual Tabs&gt;Dimension" />
@@ -143,6 +143,7 @@
   <ShortcutItem CommandName="Dynamo" CommandId="ID_VISUAL_PROGRAMMING_DYNAMO" Paths="Manage&gt;Visual Programming" />
   <ShortcutItem CommandName="Dynamo Player" CommandId="ID_PLAYLIST_DYNAMO" Paths="Manage&gt;Visual Programming" />
   <ShortcutItem CommandName="External Tools:InfraWorks Properties" CommandId="e2e60849-5bde-4342-9fc0-6f4a002bc20a" Paths="Add-Ins&gt;External" />
+  <ShortcutItem CommandName="External Tools:Export to Unreal Datasmith" CommandId="07156b49-d4f7-4687-b9fb-e4c877004c78" Paths="Add-Ins&gt;External" />
   <ShortcutItem CommandName="Batch Print" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%Batch Print%Ribbon_BP_Btn" Paths="Add-Ins&gt;Batch Print" />
   <ShortcutItem CommandName="Transmit a model" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%eTransmit%eTransmit" Paths="Add-Ins&gt;eTransmit" />
   <ShortcutItem CommandName="Help" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%eTransmit%eTransmitHelp" Paths="Add-Ins&gt;eTransmit" />
@@ -155,14 +156,40 @@
   <ShortcutItem CommandName="Glue" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%BIM 360%Glue" Paths="Add-Ins&gt;BIM 360" />
   <ShortcutItem CommandName="Clash Pinpoint" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%BIM 360%Clash{0}Pinpoint" Paths="Add-Ins&gt;BIM 360" />
   <ShortcutItem CommandName="Equipment Properties" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%BIM 360%Equipment{0}Properties" Paths="Add-Ins&gt;BIM 360" />
+  <ShortcutItem CommandName="Export 3D View" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%Unreal Datasmith%Export3DView" Paths="Add-Ins&gt;Unreal Datasmith" />
   <ShortcutItem CommandName="Convert Files:Convert RFAto FormIt" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Add-Ins%FormIt Converter%Convert Files%Convert RFA to FormIt" Paths="Add-Ins&gt;FormIt Converter" />
   <ShortcutItem CommandName="Convert Files:Convert SKPto FormIt" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Add-Ins%FormIt Converter%Convert Files%Convert SKP to FormIt" Paths="Add-Ins&gt;FormIt Converter" />
   <ShortcutItem CommandName="Convert Files:Import FormItto RVT" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Add-Ins%FormIt Converter%Convert Files%Import FormIt to RVT" Paths="Add-Ins&gt;FormIt Converter" />
   <ShortcutItem CommandName="Convert Files:Reload Families" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Add-Ins%FormIt Converter%Convert Files%Reload Families" Paths="Add-Ins&gt;FormIt Converter" />
   <ShortcutItem CommandName="About FormIt" CommandId="CustomCtrl_%CustomCtrl_%Add-Ins%FormIt Converter%About FormIt" Paths="Add-Ins&gt;FormIt Converter" />
-  <ShortcutItem CommandName="Tag WallLayers" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Annotation Commands%c64c333d-4a52-4831-a031-b3001e18b123" Paths="Circle's Bim Blog&gt;Annotation Commands" />
-  <ShortcutItem CommandName="Show FamilyManager" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Family Manager Commands%5ce30180-4b1a-43f5-ac58-b155da2e9683" Paths="Circle's Bim Blog&gt;Family Manager Commands" />
-  <ShortcutItem CommandName="Hide FamilyManager" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Family Manager Commands%82241c72-40db-4bc2-852b-2c9e518328f1" Paths="Circle's Bim Blog&gt;Family Manager Commands" />
+  <ShortcutItem CommandName="Start" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Control (Start)%Start" Paths="Enscape™&gt;Control" />
+  <ShortcutItem CommandName="Manage Views" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Active Document%3DViews" Paths="Enscape™&gt;Active Document" />
+  <ShortcutItem CommandName="Enable" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%VR Headset Enable%EnableHmd" Paths="Enscape™&gt;VR Headset" />
+  <ShortcutItem CommandName="Screenshot:Screenshot(To File)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Tools%TakeScreenshot%TakeScreenshot" Paths="Enscape™&gt;Tools" />
+  <ShortcutItem CommandName="Screenshot:Screenshot(As Rendering)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Tools%TakeScreenshot%TakeScreenshotRevit" Paths="Enscape™&gt;Tools" />
+  <ShortcutItem CommandName="Screenshot:Batch Screenshot" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Tools%TakeScreenshot%TakeBatchScreenshot" Paths="Enscape™&gt;Tools" />
+  <ShortcutItem CommandName="Export" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Tools%ExeExport" Paths="Enscape™&gt;Tools" />
+  <ShortcutItem CommandName="Create View" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Tools%CreateRevitView" Paths="Enscape™&gt;Tools" />
+  <ShortcutItem CommandName="Camerapath:Load Path" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Video%VideoSetStartStop%VideoLoadPath" Paths="Enscape™&gt;Video" />
+  <ShortcutItem CommandName="Camerapath:Save Path" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Video%VideoSetStartStop%VideoSavePath" Paths="Enscape™&gt;Video" />
+  <ShortcutItem CommandName="Toggle Video Editor" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Video%ToggleVideoEditorState" Paths="Enscape™&gt;Video" />
+  <ShortcutItem CommandName="Export video" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Video%VideoExport" Paths="Enscape™&gt;Video" />
+  <ShortcutItem CommandName="Stop" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Video%VideoExportStop" Paths="Enscape™&gt;Video" />
+  <ShortcutItem CommandName="Take panorama:Take Panorama(Mono)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Panorama%CapturePanorama%CapturePanoramaMono" Paths="Enscape™&gt;Panorama" />
+  <ShortcutItem CommandName="Take panorama:Take Panorama(Stereo)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Panorama%CapturePanorama%CapturePanoramaStereo" Paths="Enscape™&gt;Panorama" />
+  <ShortcutItem CommandName="Stop Panorama" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Panorama%StopPanoramaCapture" Paths="Enscape™&gt;Panorama" />
+  <ShortcutItem CommandName="My Panoramas" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Panorama%ShowPanoramaList" Paths="Enscape™&gt;Panorama" />
+  <ShortcutItem CommandName="Place sound source:Place sound source (on selected face)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Auralization%PlaceSoundsource%PlaceSoundsourceOnFace" Paths="Enscape™&gt;Auralization" />
+  <ShortcutItem CommandName="Place sound source:Place sound source (on active workplane)" CommandId="CustomCtrl_%CustomCtrl_%CustomCtrl_%Enscape™%Auralization%PlaceSoundsource%PlaceSoundsourceOnActiveWorkplane" Paths="Enscape™&gt;Auralization" />
+  <ShortcutItem CommandName="EnableSound" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Auralization%EnableAuralization" Paths="Enscape™&gt;Auralization" />
+  <ShortcutItem CommandName="DisableSound" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Auralization%DisableAuralization" Paths="Enscape™&gt;Auralization" />
+  <ShortcutItem CommandName="Settings" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Settings%Settings" Paths="Enscape™&gt;Settings" />
+  <ShortcutItem CommandName="Feedback" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Misc%OpenFeedback" Paths="Enscape™&gt;Misc" />
+  <ShortcutItem CommandName="About" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Misc%OpenAbout" Paths="Enscape™&gt;Misc" />
+  <ShortcutItem CommandName="Enscape Store" CommandId="CustomCtrl_%CustomCtrl_%Enscape™%Misc%BuyEnscape" Paths="Enscape™&gt;Misc" />
+  <ShortcutItem CommandName="Tag WallLayers" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Annotation Commands%ac995230-6b92-4083-a817-b715c8cd49a6" Paths="Circle's Bim Blog&gt;Annotation Commands" />
+  <ShortcutItem CommandName="Show FamilyManager" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Family Manager Commands%315db9f3-7897-4c26-b45d-1755ad6daaea" Paths="Circle's Bim Blog&gt;Family Manager Commands" />
+  <ShortcutItem CommandName="Hide FamilyManager" CommandId="CustomCtrl_%CustomCtrl_%Circle's Bim Blog%Family Manager Commands%187e957a-865f-43f0-9f4b-e8cd0b8a912b" Paths="Circle's Bim Blog&gt;Family Manager Commands" />
   <ShortcutItem CommandName="Paste; Paste from Clipboard" CommandId="ID_EDIT_PASTE" Paths="Modify&gt;Clipboard" />
   <ShortcutItem CommandName="Paste:Aligned to Selected Levels" CommandId="ID_EDIT_PASTE_ALIGNED_LEVEL_BY_NAME" Paths="Modify&gt;Clipboard" />
   <ShortcutItem CommandName="Paste:Aligned to Selected Views" CommandId="ID_EDIT_PASTE_ALIGNED_VIEWS_BY_NAME" Paths="Modify&gt;Clipboard" />
@@ -234,7 +261,7 @@
   <ShortcutItem CommandName="Component:Model In-Place" CommandId="ID_INPLACE_COMPONENT" Paths="Architecture&gt;Build; Structure&gt;Model; Systems&gt;Model" />
   <ShortcutItem CommandName="Column; Structural Column" CommandId="ID_OBJECTS_STRUCTURAL_COLUMN" Shortcuts="CL" Paths="Architecture&gt;Build; Structure&gt;Structure" />
   <ShortcutItem CommandName="Column:Column: Architectural" CommandId="ID_OBJECTS_COLUMN" Paths="Architecture&gt;Build" />
-  <ShortcutItem CommandName="Roof; Roof by Footprint" CommandId="ID_ROOF_FOOTPRINT" Paths="Architecture&gt;Build" />
+  <ShortcutItem CommandName="Roof; Roof by Footprint" CommandId="ID_ROOF_FOOTPRINT" Shortcuts="RF" Paths="Architecture&gt;Build" />
   <ShortcutItem CommandName="Roof:Roof by Extrusion" CommandId="ID_ROOF_EXTRUSION" Paths="Architecture&gt;Build" />
   <ShortcutItem CommandName="Roof:Roof by Face" CommandId="ID_ROOF_PICK_FACES" Paths="Architecture&gt;Build; Massing &amp; Site&gt;Model by Face" />
   <ShortcutItem CommandName="Roof:Roof: Soffit" CommandId="ID_CREATE_SOFFIT_TB" Paths="Architecture&gt;Build" />
