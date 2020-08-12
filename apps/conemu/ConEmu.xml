@@ -1,414 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-03-03 21:02:51" build="190225">
-			<value name="Language" type="string" data="en"/>
+		<key name=".Vanilla" modified="2020-08-06 16:40:34" build="200615">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
-			<value name="StartTasksName" type="string" data="{Bash::Git bash}"/>
+			<value name="StartTasksName" type="string" data="{Shells::PowerShell (Admin)}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
-			<value name="StartCreateDelay" type="ulong" data="100"/>
-			<value name="ColorTable00" type="dword" data="00181818"/>
-			<value name="ColorTable01" type="dword" data="00a46534"/>
-			<value name="ColorTable02" type="dword" data="00069a4e"/>
-			<value name="ColorTable03" type="dword" data="009a9806"/>
-			<value name="ColorTable04" type="dword" data="000000cc"/>
-			<value name="ColorTable05" type="dword" data="009d6a96"/>
-			<value name="ColorTable06" type="dword" data="00129cf3"/>
-			<value name="ColorTable07" type="dword" data="00cfd7d3"/>
-			<value name="ColorTable08" type="dword" data="00535755"/>
-			<value name="ColorTable09" type="dword" data="00cf9f72"/>
-			<value name="ColorTable10" type="dword" data="0034e28a"/>
-			<value name="ColorTable11" type="dword" data="00e2e234"/>
-			<value name="ColorTable12" type="dword" data="002929ef"/>
-			<value name="ColorTable13" type="dword" data="00a87fad"/>
-			<value name="ColorTable14" type="dword" data="004fe9fc"/>
-			<value name="ColorTable15" type="dword" data="00eceeee"/>
+			<value name="ColorTable00" type="dword" data="002e2b29"/>
+			<value name="ColorTable01" type="dword" data="00aea12a"/>
+			<value name="ColorTable02" type="dword" data="002fdc86"/>
+			<value name="ColorTable03" type="dword" data="0074952d"/>
+			<value name="ColorTable04" type="dword" data="001d21e0"/>
+			<value name="ColorTable05" type="dword" data="00c56ebc"/>
+			<value name="ColorTable06" type="dword" data="002f75dc"/>
+			<value name="ColorTable07" type="dword" data="00b2b2b2"/>
+			<value name="ColorTable08" type="dword" data="00ad5ba4"/>
+			<value name="ColorTable09" type="dword" data="00d7974f"/>
+			<value name="ColorTable10" type="dword" data="001db167"/>
+			<value name="ColorTable11" type="dword" data="00f0de28"/>
+			<value name="ColorTable12" type="dword" data="001f24f2"/>
+			<value name="ColorTable13" type="dword" data="007a53ce"/>
+			<value name="ColorTable14" type="dword" data="001d95b1"/>
+			<value name="ColorTable15" type="dword" data="00b2b2b2"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
 			<value name="PopTextColorIdx" type="hex" data="10"/>
 			<value name="PopBackColorIdx" type="hex" data="10"/>
-			<value name="ExtendFonts" type="hex" data="00"/>
-			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
-			<value name="ExtendFontBoldIdx" type="hex" data="0C"/>
-			<value name="ExtendFontItalicIdx" type="hex" data="0D"/>
-			<value name="CursorTypeActive" type="dword" data="00033242"/>
-			<value name="CursorTypeInactive" type="dword" data="00823283"/>
-			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
-			<value name="ClipboardBashMargin" type="hex" data="00"/>
-			<value name="ClipboardTrimTrailing" type="hex" data="02"/>
-			<value name="ClipboardEOL" type="hex" data="00"/>
-			<value name="ClipboardArrowStart" type="hex" data="01"/>
-			<value name="ClipboardAllLines" type="hex" data="01"/>
-			<value name="ClipboardAllLinesPosix" type="hex" data="00"/>
-			<value name="ClipboardFirstLine" type="hex" data="01"/>
-			<value name="ClipboardFirstLinePosix" type="hex" data="00"/>
-			<value name="ClipboardClickPromptPosition" type="hex" data="02"/>
-			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
-			<value name="TrueColorerSupport" type="hex" data="01"/>
-			<value name="VividColors" type="hex" data="01"/>
-			<value name="FadeInactive" type="hex" data="01"/>
-			<value name="FadeInactiveLow" type="hex" data="00"/>
-			<value name="FadeInactiveHigh" type="hex" data="D0"/>
-			<value name="ConVisible" type="hex" data="00"/>
-			<value name="UseInjects" type="hex" data="01"/>
-			<value name="SetDefaultTerminal" type="hex" data="00"/>
-			<value name="SetDefaultTerminalStartup" type="hex" data="00"/>
-			<value name="SetDefaultTerminalStartupTSA" type="hex" data="00"/>
-			<value name="DefaultTerminalAgressive" type="hex" data="01"/>
-			<value name="DefaultTerminalNoInjects" type="hex" data="00"/>
-			<value name="DefaultTerminalNewWindow" type="hex" data="00"/>
-			<value name="DefaultTerminalDebugLog" type="hex" data="00"/>
-			<value name="DefaultTerminalConfirm" type="hex" data="01"/>
-			<value name="DefaultTerminalApps" type="string" data="explorer.exe"/>
-			<value name="ProcessAnsi" type="hex" data="01"/>
-			<value name="AnsiExecution" type="hex" data="01"/>
-			<value name="AnsiAllowedCommands" type="multi">
-				<line data="cmd -cur_console:R /cGitShowBranch.cmd"/>
-			</value>
-			<value name="AnsiLog" type="hex" data="00"/>
-			<value name="AnsiLogPath" type="string" data="%UserProfile%\Desktop\ConEmuLogs\"/>
-			<value name="KillSshAgent" type="hex" data="01"/>
-			<value name="ProcessNewConArg" type="hex" data="01"/>
-			<value name="ProcessCmdStart" type="hex" data="00"/>
-			<value name="ProcessCtrlZ" type="hex" data="00"/>
-			<value name="SuppressBells" type="hex" data="01"/>
-			<value name="ConsoleExceptionHandler" type="hex" data="00"/>
-			<value name="UseClink" type="hex" data="01"/>
-			<value name="StoreTaskbarkTasks" type="hex" data="01"/>
-			<value name="StoreTaskbarCommands" type="hex" data="00"/>
-			<value name="JumpListAutoUpdate" type="hex" data="01"/>
-			<value name="SaveCmdHistory" type="hex" data="01"/>
-			<value name="CmdLineHistory" type="multi">
-				<line data="{Bash::Git bash}"/>
-				<line data="{Git Bash}"/>
-			</value>
 			<value name="SingleInstance" type="hex" data="01"/>
-			<value name="ShowHelpTooltips" type="hex" data="00"/>
-			<value name="Multi" type="hex" data="01"/>
-			<value name="Multi.ShowButtons" type="hex" data="00"/>
-			<value name="Multi.ShowSearch" type="hex" data="00"/>
-			<value name="Multi.NumberInCaption" type="hex" data="01"/>
-			<value name="Multi.CloseConfirmFlags" type="hex" data="04"/>
-			<value name="Multi.NewConfirm" type="hex" data="00"/>
-			<value name="Multi.DupConfirm" type="hex" data="01"/>
-			<value name="Multi.DetachConfirm" type="hex" data="01"/>
-			<value name="Multi.UseArrows" type="hex" data="00"/>
-			<value name="Multi.UseNumbers" type="hex" data="01"/>
-			<value name="Multi.UseWinTab" type="hex" data="00"/>
-			<value name="Multi.AutoCreate" type="hex" data="00"/>
-			<value name="Multi.LeaveOnClose" type="hex" data="00"/>
-			<value name="Multi.HideOnClose" type="hex" data="00"/>
-			<value name="Multi.MinByEsc" type="hex" data="02"/>
-			<value name="MapShiftEscToEsc" type="hex" data="01"/>
-			<value name="Multi.Iterate" type="hex" data="01"/>
-			<value name="Multi.SplitWidth" type="hex" data="04"/>
-			<value name="Multi.SplitHeight" type="hex" data="04"/>
+			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
-			<value name="FontName" type="string" data="Lucida Console"/>
-			<value name="FontName2" type="string" data="Ubuntu Mono"/>
-			<value name="FontAutoSize" type="hex" data="00"/>
-			<value name="FontSize" type="ulong" data="12"/>
-			<value name="FontSizeX" type="ulong" data="0"/>
-			<value name="FontUseDpi" type="hex" data="01"/>
-			<value name="FontUseUnits" type="hex" data="01"/>
-			<value name="FontSizeX2" type="ulong" data="0"/>
-			<value name="FontSizeX3" type="ulong" data="0"/>
-			<value name="FontCharSet" type="hex" data="01"/>
-			<value name="Anti-aliasing" type="ulong" data="6"/>
-			<value name="FontBold" type="hex" data="00"/>
-			<value name="FontItalic" type="hex" data="00"/>
-			<value name="Monospace" type="hex" data="01"/>
-			<value name="CompressLongStrings" type="hex" data="01"/>
-			<value name="BackGround Image show" type="hex" data="00"/>
-			<value name="BackGround Image" type="string" data="c:\back.bmp"/>
-			<value name="bgImageDarker" type="hex" data="FF"/>
-			<value name="bgImageColors" type="dword" data="ffffffff"/>
-			<value name="bgOperation" type="hex" data="00"/>
-			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="FF"/>
-			<value name="AlphaValueSeparate" type="hex" data="00"/>
-			<value name="AlphaValueInactive" type="hex" data="FF"/>
-			<value name="UserScreenTransparent" type="hex" data="00"/>
-			<value name="ColorKeyTransparent" type="hex" data="00"/>
-			<value name="ColorKeyValue" type="dword" data="00010101"/>
-			<value name="UseCurrentSizePos" type="hex" data="01"/>
-			<value name="AutoSaveSizePos" type="hex" data="01"/>
-			<value name="Cascaded" type="hex" data="01"/>
-			<value name="IntegralSize" type="hex" data="00"/>
-			<value name="WindowMode" type="dword" data="00000521"/>
-			<value name="ConWnd X" type="long" data="-3"/>
-			<value name="ConWnd Y" type="long" data="0"/>
-			<value name="LastMonitor" type="string" data="0,0,1920,1080"/>
-			<value name="ConWnd Width" type="dword" data="000000a1"/>
-			<value name="ConWnd Height" type="dword" data="00000051"/>
-			<value name="16bit Height" type="ulong" data="0"/>
-			<value name="QuakeStyle" type="hex" data="01"/>
-			<value name="Restore2ActiveMon" type="hex" data="00"/>
-			<value name="RestoreInactive" type="hex" data="00"/>
-			<value name="QuakeAnimation" type="ulong" data="300"/>
-			<value name="HideCaption" type="hex" data="00"/>
-			<value name="HideChildCaption" type="hex" data="01"/>
-			<value name="FocusInChildWindows" type="hex" data="01"/>
-			<value name="HideCaptionAlways" type="hex" data="00"/>
-			<value name="HideCaptionAlwaysFrame" type="hex" data="FF"/>
-			<value name="HideCaptionAlwaysDelay" type="ulong" data="2000"/>
-			<value name="HideCaptionAlwaysDisappear" type="ulong" data="2000"/>
-			<value name="DownShowHiddenMessage" type="hex" data="00"/>
-			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
-			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
-			<value name="ConsoleFontWidth" type="long" data="3"/>
-			<value name="ConsoleFontHeight" type="long" data="5"/>
-			<value name="DynamicBufferHeight" type="hex" data="01"/>
-			<value name="DefaultBufferHeight" type="long" data="32766"/>
-			<value name="AutoBufferHeight" type="hex" data="01"/>
-			<value name="UseScrollLock" type="hex" data="01"/>
-			<value name="ComSpec.Type" type="hex" data="00"/>
-			<value name="ComSpec.Bits" type="hex" data="00"/>
-			<value name="ComSpec.UpdateEnv" type="hex" data="00"/>
-			<value name="ComSpec.EnvAddPath" type="hex" data="01"/>
-			<value name="ComSpec.EnvAddExePath" type="hex" data="01"/>
-			<value name="ComSpec.UncPaths" type="hex" data="00"/>
-			<value name="ComSpec.Path" type="string" data=""/>
-			<value name="EnvironmentSet" type="multi">
-				<line data="set PATH=%ConEmuBaseDir%\Scripts;%PATH%"/>
-				<line data=" "/>
-				<line data="# set ConEmuPromptNames=NO"/>
-				<line data="# set ConEmuPromptNL=NO"/>
-				<line data="# set ConEmuSudoSplit=NO"/>
-				<line data="# set ConEmuSudoConfirm=NO"/>
-				<line data=" "/>
-				<line data="# set LANG=ru_RU.utf8"/>
-				<line data="# set LANG=ru_RU.CP1251"/>
-				<line data=" "/>
-				<line data='# alias cdc=cd /d "%ConEmuDir%"'/>
-				<line data='# alias cd~=cd /d "%UserProfile%"'/>
-				<line data="# alias gl=git-log"/>
-				<line data="# alias glb=git-log --branches --date-order"/>
-			</value>
-			<value name="CTS.Intelligent" type="hex" data="01"/>
-			<value name="CTS.IntelligentExceptions" type="string" data="far|vim"/>
-			<value name="CTS.AutoCopy" type="hex" data="01"/>
-			<value name="CTS.ResetOnRelease" type="hex" data="00"/>
-			<value name="CTS.IBeam" type="hex" data="01"/>
-			<value name="CTS.EndOnTyping" type="hex" data="00"/>
-			<value name="CTS.EndOnKeyPress" type="hex" data="00"/>
-			<value name="CTS.EraseBeforeReset" type="hex" data="01"/>
-			<value name="CTS.Freeze" type="hex" data="00"/>
-			<value name="CTS.SelectBlock" type="hex" data="01"/>
-			<value name="CTS.SelectText" type="hex" data="01"/>
-			<value name="CTS.HtmlFormat" type="hex" data="00"/>
-			<value name="CTS.ForceLocale" type="dword" data="00000000"/>
-			<value name="CTS.RBtnAction" type="hex" data="03"/>
-			<value name="CTS.MBtnAction" type="hex" data="00"/>
-			<value name="CTS.ColorIndex" type="hex" data="E0"/>
-			<value name="ClipboardConfirmEnter" type="hex" data="01"/>
-			<value name="AutoTrimSingleLine" type="hex" data="00"/>
-			<value name="ClipboardConfirmLonger" type="ulong" data="200"/>
-			<value name="FarGotoEditorOpt" type="hex" data="01"/>
-			<value name="FarGotoEditorPath" type="string" data='far.exe /e%1:%2 "%3"'/>
-			<value name="HighlightMouseRow" type="hex" data="00"/>
-			<value name="HighlightMouseCol" type="hex" data="00"/>
-			<value name="FixFarBorders" type="hex" data="01"/>
-			<value name="Anti-aliasing2" type="hex" data="01"/>
-			<value name="FixFarBordersRanges" type="string" data="2013-25C4;"/>
-			<value name="ExtendUCharMap" type="hex" data="01"/>
-			<value name="EnhanceGraphics" type="hex" data="00"/>
-			<value name="EnhanceButtons" type="hex" data="00"/>
-			<value name="PartBrush75" type="hex" data="C8"/>
-			<value name="PartBrush50" type="hex" data="96"/>
-			<value name="PartBrush25" type="hex" data="5A"/>
-			<value name="PartBrushBlack" type="hex" data="20"/>
-			<value name="RightClick opens context menu" type="hex" data="02"/>
-			<value name="RightClickMacro2" type="string" data=""/>
-			<value name="SendAltTab" type="hex" data="00"/>
-			<value name="SendAltEsc" type="hex" data="00"/>
-			<value name="SendAltPrintScrn" type="hex" data="00"/>
-			<value name="SendPrintScrn" type="hex" data="00"/>
-			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="01"/>
-			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
-			<value name="SafeFarClose" type="hex" data="01"/>
-			<value name="SafeFarCloseMacro" type="string" data=""/>
-			<value name="FARuseASCIIsort" type="hex" data="00"/>
-			<value name="ShellNoZoneCheck" type="hex" data="00"/>
-			<value name="FixAltOnAltTab" type="hex" data="00"/>
-			<value name="UseAltGrayPlus" type="hex" data="01"/>
-			<value name="DisableMouse" type="hex" data="00"/>
-			<value name="RSelectionFix" type="hex" data="01"/>
-			<value name="MouseSkipActivation" type="hex" data="01"/>
-			<value name="MouseSkipMoving" type="hex" data="01"/>
-			<value name="MouseDragWindow" type="hex" data="01"/>
-			<value name="FarHourglass" type="hex" data="01"/>
-			<value name="FarHourglassDelay" type="ulong" data="500"/>
-			<value name="Dnd" type="hex" data="01"/>
-			<value name="DndDrop" type="hex" data="01"/>
-			<value name="DefCopy" type="hex" data="01"/>
-			<value name="DropUseMenu" type="hex" data="02"/>
-			<value name="DragOverlay" type="hex" data="01"/>
-			<value name="DragShowIcons" type="hex" data="01"/>
-			<value name="DebugSteps" type="hex" data="00"/>
-			<value name="DebugLog" type="hex" data="00"/>
-			<value name="DragPanel" type="hex" data="02"/>
-			<value name="DragPanelBothEdges" type="hex" data="00"/>
-			<value name="KeyBarRClick" type="hex" data="01"/>
-			<value name="StatusBar.Show" type="hex" data="01"/>
-			<value name="StatusBar.Flags" type="dword" data="00000002"/>
-			<value name="StatusFontFace" type="string" data="luc"/>
-			<value name="StatusFontCharSet" type="ulong" data="0"/>
-			<value name="StatusFontHeight" type="long" data="12"/>
-			<value name="StatusBar.Color.Back" type="dword" data="00242424"/>
-			<value name="StatusBar.Color.Light" type="dword" data="00e3f6fd"/>
-			<value name="StatusBar.Color.Dark" type="dword" data="00a1a193"/>
-			<value name="StatusBar.Hide.VCon" type="hex" data="01"/>
-			<value name="StatusBar.Hide.CapsL" type="hex" data="01"/>
-			<value name="StatusBar.Hide.NumL" type="hex" data="01"/>
-			<value name="StatusBar.Hide.ScrL" type="hex" data="01"/>
-			<value name="StatusBar.Hide.VisL" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Lang" type="hex" data="01"/>
-			<value name="StatusBar.Hide.KeyHooks" type="hex" data="01"/>
-			<value name="StatusBar.Hide.TMode" type="hex" data="01"/>
-			<value name="StatusBar.Hide.RMode" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WPos" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WSize" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WClient" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WWork" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WVBack" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WVDC" type="hex" data="01"/>
-			<value name="StatusBar.Hide.WMode" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Style" type="hex" data="01"/>
-			<value name="StatusBar.Hide.StyleEx" type="hex" data="01"/>
-			<value name="StatusBar.Hide.hFore" type="hex" data="01"/>
-			<value name="StatusBar.Hide.hFocus" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Zoom" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Dpi" type="hex" data="01"/>
-			<value name="StatusBar.Hide.ABuf" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CPos" type="hex" data="01"/>
-			<value name="StatusBar.Hide.CSize" type="hex" data="00"/>
-			<value name="StatusBar.Hide.BSize" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurX" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurY" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurS" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurI" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CellI" type="hex" data="00"/>
-			<value name="StatusBar.Hide.ConEmuPID" type="hex" data="01"/>
-			<value name="StatusBar.Hide.ConEmuHWND" type="hex" data="01"/>
-			<value name="StatusBar.Hide.ConEmuView" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Srv" type="hex" data="00"/>
-			<value name="StatusBar.Hide.SrvHWND" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Transparency" type="hex" data="01"/>
-			<value name="StatusBar.Hide.New" type="hex" data="00"/>
-			<value name="StatusBar.Hide.Sync" type="hex" data="00"/>
-			<value name="StatusBar.Hide.Proc" type="hex" data="00"/>
-			<value name="StatusBar.Hide.Title" type="hex" data="00"/>
-			<value name="StatusBar.Hide.Time" type="hex" data="00"/>
-			<value name="StatusBar.Hide.Resize" type="hex" data="01"/>
-			<value name="Tabs" type="hex" data="01"/>
-			<value name="TabsLocation" type="hex" data="01"/>
-			<value name="TabIcons" type="hex" data="01"/>
-			<value name="OneTabPerGroup" type="hex" data="00"/>
-			<value name="ActivateSplitMouseOver" type="hex" data="01"/>
-			<value name="TabSelf" type="hex" data="01"/>
-			<value name="TabLazy" type="hex" data="01"/>
-			<value name="TabFlashChanged" type="long" data="8"/>
-			<value name="TabRecent" type="hex" data="01"/>
-			<value name="TabDblClick" type="ulong" data="1"/>
-			<value name="TabBtnDblClick" type="ulong" data="6"/>
-			<value name="TabsOnTaskBar" type="hex" data="02"/>
-			<value name="TaskBarOverlay" type="hex" data="01"/>
-			<value name="TaskbarProgress" type="hex" data="01"/>
-			<value name="TabCloseMacro" type="string" data=""/>
-			<value name="TabFontFace" type="string" data="Segoe UI"/>
-			<value name="TabFontCharSet" type="ulong" data="0"/>
-			<value name="TabFontHeight" type="long" data="11"/>
-			<value name="SaveAllEditors" type="string" data=""/>
-			<value name="ToolbarAddSpace" type="long" data="0"/>
-			<value name="TabConsole" type="string" data="&lt;%c&gt; %s %n"/>
-			<value name="TabModifiedSuffix" type="string" data="[*]"/>
-			<value name="TabSkipWords" type="string" data="Administrator:|Администратор:"/>
-			<value name="TabPanels" type="string" data="&lt;%c&gt; %s"/>
-			<value name="TabEditor" type="string" data="&lt;%c.%i&gt;{%s}"/>
-			<value name="TabEditorModified" type="string" data="&lt;%c.%i&gt;[%s] *"/>
-			<value name="TabViewer" type="string" data="&lt;%c.%i&gt;[%s]"/>
-			<value name="TabLenMax" type="ulong" data="32"/>
-			<value name="AdminTitleSuffix" type="string" data=" (Admin)"/>
-			<value name="AdminShowShield" type="hex" data="01"/>
-			<value name="HideInactiveConsoleTabs" type="hex" data="00"/>
-			<value name="ShowFarWindows" type="hex" data="01"/>
-			<value name="TryToCenter" type="hex" data="01"/>
-			<value name="CenterConsolePad" type="ulong" data="4"/>
-			<value name="ShowScrollbar" type="hex" data="00"/>
-			<value name="ScrollBarAppearDelay" type="ulong" data="100"/>
-			<value name="ScrollBarDisappearDelay" type="ulong" data="1000"/>
-			<value name="IconID" type="ulong" data="1"/>
-			<value name="MainTimerElapse" type="ulong" data="10"/>
-			<value name="MainTimerInactiveElapse" type="ulong" data="1000"/>
-			<value name="AffinityMask" type="dword" data="00000000"/>
-			<value name="SkipFocusEvents" type="hex" data="00"/>
-			<value name="MonitorConsoleLang" type="hex" data="03"/>
-			<value name="SnapToDesktopEdges" type="hex" data="01"/>
-			<value name="AlwaysOnTop" type="hex" data="01"/>
-			<value name="SleepInBackground" type="hex" data="01"/>
-			<value name="RetardInactivePanes" type="hex" data="00"/>
-			<value name="MinimizeOnLoseFocus" type="hex" data="00"/>
-			<value name="DisableFarFlashing" type="hex" data="00"/>
-			<value name="DisableAllFlashing" type="hex" data="00"/>
-			<value name="FindText" type="string" data=""/>
-			<value name="FindMatchCase" type="hex" data="00"/>
-			<value name="FindMatchWholeWords" type="hex" data="00"/>
-			<value name="FindTransparent" type="hex" data="01"/>
-			<value name="PanView.BackColor" type="dword" data="30ffffff"/>
-			<value name="PanView.PFrame" type="long" data="1"/>
-			<value name="PanView.PFrameColor" type="dword" data="28808080"/>
-			<value name="PanView.SFrame" type="long" data="1"/>
-			<value name="PanView.SFrameColor" type="dword" data="07c0c0c0"/>
-			<value name="PanView.Thumbs.ImgSize" type="long" data="96"/>
-			<value name="PanView.Thumbs.SpaceX1" type="long" data="1"/>
-			<value name="PanView.Thumbs.SpaceY1" type="long" data="1"/>
-			<value name="PanView.Thumbs.SpaceX2" type="long" data="5"/>
-			<value name="PanView.Thumbs.SpaceY2" type="long" data="20"/>
-			<value name="PanView.Thumbs.LabelSpacing" type="long" data="2"/>
-			<value name="PanView.Thumbs.LabelPadding" type="long" data="0"/>
-			<value name="PanView.Thumbs.FontName" type="string" data="Segoe UI"/>
-			<value name="PanView.Thumbs.FontHeight" type="long" data="14"/>
-			<value name="PanView.Tiles.ImgSize" type="long" data="48"/>
-			<value name="PanView.Tiles.SpaceX1" type="long" data="4"/>
-			<value name="PanView.Tiles.SpaceY1" type="long" data="4"/>
-			<value name="PanView.Tiles.SpaceX2" type="long" data="172"/>
-			<value name="PanView.Tiles.SpaceY2" type="long" data="4"/>
-			<value name="PanView.Tiles.LabelSpacing" type="long" data="4"/>
-			<value name="PanView.Tiles.LabelPadding" type="long" data="1"/>
-			<value name="PanView.Tiles.FontName" type="string" data="Segoe UI"/>
-			<value name="PanView.Tiles.FontHeight" type="long" data="14"/>
-			<value name="PanView.LoadPreviews" type="hex" data="03"/>
-			<value name="PanView.LoadFolders" type="hex" data="01"/>
-			<value name="PanView.LoadTimeout" type="ulong" data="15"/>
-			<value name="PanView.MaxZoom" type="ulong" data="600"/>
-			<value name="PanView.UsePicView2" type="hex" data="01"/>
-			<value name="PanView.RestoreOnStartup" type="hex" data="00"/>
-			<value name="Update.VerLocation" type="string" data=""/>
+			<value name="UseInjects" type="hex" data="01"/>
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
 			<value name="Update.CheckHourly" type="hex" data="01"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
 			<value name="Update.UseBuilds" type="hex" data="01"/>
-			<value name="Update.InetTool" type="hex" data="00"/>
-			<value name="Update.InetToolCmd" type="string" data=""/>
-			<value name="Update.UseProxy" type="hex" data="00"/>
-			<value name="Update.Proxy" type="string" data=""/>
-			<value name="Update.ProxyUser" type="string" data=""/>
-			<value name="Update.ProxyPassword" type="string" data=""/>
-			<value name="Update.ExeCmdLine" type="string" data=""/>
-			<value name="Update.ArcCmdLine" type="string" data=""/>
-			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
-			<value name="Update.LeavePackages" type="hex" data="00"/>
-			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2019-03-03 21:02:51" build="190225">
+			<value name="FontUseDpi" type="hex" data="01"/>
+			<value name="FontUseUnits" type="hex" data="01"/>
+			<value name="FontSize" type="ulong" data="12"/>
+			<value name="StatusFontHeight" type="long" data="12"/>
+			<value name="TabFontHeight" type="long" data="11"/>
+			<key name="HotKeys" modified="2019-12-09 12:20:32" build="191012">
+				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="000000a2"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
-				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
 				<value name="GlobalRestore" type="dword" data="00000000"/>
 				<value name="CdExplorerPath" type="dword" data="00000000"/>
@@ -600,9 +237,383 @@
 				<value name="DndRKey" type="hex" data="A2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
 			</key>
-			<key name="Tasks" modified="2019-03-03 21:02:51" build="190225">
+			<value name="UseCurrentSizePos" type="hex" data="01"/>
+			<value name="AutoSaveSizePos" type="hex" data="00"/>
+			<value name="Cascaded" type="hex" data="01"/>
+			<value name="IntegralSize" type="hex" data="00"/>
+			<value name="WindowMode" type="dword" data="0000051f"/>
+			<value name="ConWnd X" type="long" data="581"/>
+			<value name="ConWnd Y" type="long" data="171"/>
+			<value name="LastMonitor" type="string" data="0,0,3840,2100"/>
+			<value name="ConWnd Width" type="dword" data="000000a4"/>
+			<value name="ConWnd Height" type="dword" data="0000002a"/>
+			<value name="16bit Height" type="ulong" data="0"/>
+			<value name="Language" type="string" data="en"/>
+			<value name="StartCreateDelay" type="ulong" data="100"/>
+			<value name="ExtendFonts" type="hex" data="00"/>
+			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
+			<value name="ExtendFontBoldIdx" type="hex" data="0C"/>
+			<value name="ExtendFontItalicIdx" type="hex" data="0D"/>
+			<value name="CursorTypeActive" type="dword" data="00033242"/>
+			<value name="CursorTypeInactive" type="dword" data="00823283"/>
+			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
+			<value name="ClipboardBashMargin" type="hex" data="00"/>
+			<value name="ClipboardTrimTrailing" type="hex" data="02"/>
+			<value name="ClipboardEOL" type="hex" data="00"/>
+			<value name="ClipboardArrowStart" type="hex" data="01"/>
+			<value name="ClipboardAllLines" type="hex" data="01"/>
+			<value name="ClipboardAllLinesPosix" type="hex" data="00"/>
+			<value name="ClipboardFirstLine" type="hex" data="01"/>
+			<value name="ClipboardFirstLinePosix" type="hex" data="00"/>
+			<value name="ClipboardClickPromptPosition" type="hex" data="02"/>
+			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
+			<value name="TrueColorerSupport" type="hex" data="01"/>
+			<value name="VividColors" type="hex" data="01"/>
+			<value name="FadeInactive" type="hex" data="00"/>
+			<value name="FadeInactiveLow" type="hex" data="00"/>
+			<value name="FadeInactiveHigh" type="hex" data="D0"/>
+			<value name="ConVisible" type="hex" data="00"/>
+			<value name="SetDefaultTerminal" type="hex" data="00"/>
+			<value name="SetDefaultTerminalStartup" type="hex" data="00"/>
+			<value name="SetDefaultTerminalStartupTSA" type="hex" data="00"/>
+			<value name="DefaultTerminalAgressive" type="hex" data="01"/>
+			<value name="DefaultTerminalNoInjects" type="hex" data="00"/>
+			<value name="DefaultTerminalNewWindow" type="hex" data="00"/>
+			<value name="DefaultTerminalDebugLog" type="hex" data="00"/>
+			<value name="DefaultTerminalConfirm" type="hex" data="01"/>
+			<value name="DefaultTerminalApps" type="string" data="explorer.exe"/>
+			<value name="ProcessAnsi" type="hex" data="01"/>
+			<value name="AnsiExecution" type="hex" data="01"/>
+			<value name="AnsiAllowedCommands" type="multi">
+				<line data="cmd -cur_console:R /cGitShowBranch.cmd"/>
+			</value>
+			<value name="AnsiLog" type="hex" data="00"/>
+			<value name="AnsiLogCodes" type="hex" data="00"/>
+			<value name="AnsiLogPath" type="string" data="%UserProfile%\Desktop\ConEmuLogs\"/>
+			<value name="KillSshAgent" type="hex" data="01"/>
+			<value name="ProcessNewConArg" type="hex" data="01"/>
+			<value name="ProcessCmdStart" type="hex" data="00"/>
+			<value name="ProcessCtrlZ" type="hex" data="00"/>
+			<value name="SuppressBells" type="hex" data="01"/>
+			<value name="ConsoleExceptionHandler" type="hex" data="00"/>
+			<value name="UseClink" type="hex" data="01"/>
+			<value name="StoreTaskbarkTasks" type="hex" data="01"/>
+			<value name="StoreTaskbarCommands" type="hex" data="00"/>
+			<value name="JumpListAutoUpdate" type="hex" data="01"/>
+			<value name="SaveCmdHistory" type="hex" data="01"/>
+			<value name="CmdLineHistory" type="multi">
+				<line data="{Shells::PowerShell (Admin)}"/>
+				<line data="{Shells::PowerShell}"/>
+				<line data="{Shells::cmd (Admin)}"/>
+				<line data="{Shells::cmd}"/>
+				<line data="{Git Bash}"/>
+				<line data="{Helper::Show ANSI colors}"/>
+				<line data="{Tools::Chocolatey (Admin)}"/>
+				<line data="{Bash::CygWin bash}"/>
+				<line data="{Shells::cmd-32}"/>
+				<line data="{Bash::Git bash}"/>
+			</value>
+			<value name="ShowHelpTooltips" type="hex" data="00"/>
+			<value name="Multi" type="hex" data="01"/>
+			<value name="Multi.ShowButtons" type="hex" data="00"/>
+			<value name="Multi.ShowSearch" type="hex" data="00"/>
+			<value name="Multi.NumberInCaption" type="hex" data="01"/>
+			<value name="Multi.CloseConfirmFlags" type="hex" data="04"/>
+			<value name="Multi.NewConfirm" type="hex" data="00"/>
+			<value name="Multi.DupConfirm" type="hex" data="01"/>
+			<value name="Multi.DetachConfirm" type="hex" data="01"/>
+			<value name="Multi.UseArrows" type="hex" data="00"/>
+			<value name="Multi.UseNumbers" type="hex" data="01"/>
+			<value name="Multi.UseWinTab" type="hex" data="00"/>
+			<value name="Multi.AutoCreate" type="hex" data="00"/>
+			<value name="Multi.LeaveOnClose" type="hex" data="00"/>
+			<value name="Multi.HideOnClose" type="hex" data="00"/>
+			<value name="Multi.MinByEsc" type="hex" data="02"/>
+			<value name="MapShiftEscToEsc" type="hex" data="01"/>
+			<value name="Multi.Iterate" type="hex" data="01"/>
+			<value name="Multi.SplitWidth" type="hex" data="04"/>
+			<value name="Multi.SplitHeight" type="hex" data="04"/>
+			<value name="FontName" type="string" data="JetBrains Mono"/>
+			<value name="FontName2" type="string" data="Ubuntu Mono"/>
+			<value name="FontAutoSize" type="hex" data="00"/>
+			<value name="FontSizeX" type="ulong" data="0"/>
+			<value name="FontSizeX2" type="ulong" data="0"/>
+			<value name="FontSizeX3" type="ulong" data="0"/>
+			<value name="FontCharSet" type="hex" data="01"/>
+			<value name="Anti-aliasing" type="ulong" data="6"/>
+			<value name="FontBold" type="hex" data="00"/>
+			<value name="FontItalic" type="hex" data="00"/>
+			<value name="Monospace" type="hex" data="01"/>
+			<value name="CompressLongStrings" type="hex" data="01"/>
+			<value name="BackGround Image show" type="hex" data="02"/>
+			<value name="BackGround Image" type="string" data="c:\back.bmp"/>
+			<value name="bgImageDarker" type="hex" data="FF"/>
+			<value name="bgImageColors" type="dword" data="ffffffff"/>
+			<value name="bgOperation" type="hex" data="00"/>
+			<value name="bgPluginAllowed" type="hex" data="01"/>
+			<value name="AlphaValue" type="hex" data="F4"/>
+			<value name="AlphaValueSeparate" type="hex" data="00"/>
+			<value name="AlphaValueInactive" type="hex" data="FF"/>
+			<value name="UserScreenTransparent" type="hex" data="00"/>
+			<value name="ColorKeyTransparent" type="hex" data="00"/>
+			<value name="ColorKeyValue" type="dword" data="00010101"/>
+			<value name="Restore2ActiveMon" type="hex" data="01"/>
+			<value name="RestoreInactive" type="hex" data="00"/>
+			<value name="QuakeAnimation" type="ulong" data="225"/>
+			<value name="HideCaption" type="hex" data="00"/>
+			<value name="HideChildCaption" type="hex" data="01"/>
+			<value name="FocusInChildWindows" type="hex" data="01"/>
+			<value name="HideCaptionAlways" type="hex" data="00"/>
+			<value name="HideCaptionAlwaysFrame" type="hex" data="FF"/>
+			<value name="HideCaptionAlwaysDelay" type="ulong" data="2000"/>
+			<value name="HideCaptionAlwaysDisappear" type="ulong" data="2000"/>
+			<value name="DownShowHiddenMessage" type="hex" data="00"/>
+			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
+			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
+			<value name="ConsoleFontWidth" type="long" data="3"/>
+			<value name="ConsoleFontHeight" type="long" data="5"/>
+			<value name="DynamicBufferHeight" type="hex" data="01"/>
+			<value name="DefaultBufferHeight" type="long" data="32766"/>
+			<value name="AutoBufferHeight" type="hex" data="01"/>
+			<value name="UseScrollLock" type="hex" data="01"/>
+			<value name="ComSpec.Type" type="hex" data="00"/>
+			<value name="ComSpec.Bits" type="hex" data="00"/>
+			<value name="ComSpec.UpdateEnv" type="hex" data="00"/>
+			<value name="ComSpec.EnvAddPath" type="hex" data="01"/>
+			<value name="ComSpec.EnvAddExePath" type="hex" data="01"/>
+			<value name="ComSpec.UncPaths" type="hex" data="00"/>
+			<value name="ComSpec.Path" type="string" data=""/>
+			<value name="AutoReloadEnvironment" type="hex" data="01"/>
+			<value name="EnvironmentSet" type="multi">
+				<line data="set PATH=%ConEmuBaseDir%\Scripts;%PATH%"/>
+				<line data=" "/>
+				<line data="# set ConEmuPromptNames=NO"/>
+				<line data="# set ConEmuPromptNL=NO"/>
+				<line data="# set ConEmuSudoSplit=NO"/>
+				<line data="# set ConEmuSudoConfirm=NO"/>
+				<line data=" "/>
+				<line data="# set LANG=ru_RU.utf8"/>
+				<line data="# set LANG=ru_RU.CP1251"/>
+				<line data=" "/>
+				<line data='# alias cdc=cd /d "%ConEmuDir%"'/>
+				<line data='# alias cd~=cd /d "%UserProfile%"'/>
+				<line data="# alias gl=git-log"/>
+				<line data="# alias glb=git-log --branches --date-order"/>
+			</value>
+			<value name="CTS.Intelligent" type="hex" data="01"/>
+			<value name="CTS.IntelligentExceptions" type="string" data="far|vim"/>
+			<value name="CTS.AutoCopy" type="hex" data="01"/>
+			<value name="CTS.ResetOnRelease" type="hex" data="00"/>
+			<value name="CTS.IBeam" type="hex" data="01"/>
+			<value name="CTS.EndOnTyping" type="hex" data="00"/>
+			<value name="CTS.EndOnKeyPress" type="hex" data="00"/>
+			<value name="CTS.EraseBeforeReset" type="hex" data="01"/>
+			<value name="CTS.Freeze" type="hex" data="00"/>
+			<value name="CTS.SelectBlock" type="hex" data="01"/>
+			<value name="CTS.SelectText" type="hex" data="01"/>
+			<value name="CTS.HtmlFormat" type="hex" data="00"/>
+			<value name="CTS.ForceLocale" type="dword" data="00000000"/>
+			<value name="CTS.RBtnAction" type="hex" data="03"/>
+			<value name="CTS.MBtnAction" type="hex" data="00"/>
+			<value name="CTS.ColorIndex" type="hex" data="E0"/>
+			<value name="ClipboardConfirmEnter" type="hex" data="01"/>
+			<value name="AutoTrimSingleLine" type="hex" data="00"/>
+			<value name="ClipboardConfirmLonger" type="ulong" data="200"/>
+			<value name="FarGotoEditorOpt" type="hex" data="01"/>
+			<value name="FarGotoEditorPath" type="string" data='far.exe /e%1:%2 "%3"'/>
+			<value name="HighlightMouseRow" type="hex" data="00"/>
+			<value name="HighlightMouseCol" type="hex" data="00"/>
+			<value name="FixFarBorders" type="hex" data="01"/>
+			<value name="Anti-aliasing2" type="hex" data="01"/>
+			<value name="FixFarBordersRanges" type="string" data="2013-25C4;"/>
+			<value name="ExtendUCharMap" type="hex" data="01"/>
+			<value name="EnhanceGraphics" type="hex" data="00"/>
+			<value name="EnhanceButtons" type="hex" data="00"/>
+			<value name="PartBrush75" type="hex" data="C8"/>
+			<value name="PartBrush50" type="hex" data="96"/>
+			<value name="PartBrush25" type="hex" data="5A"/>
+			<value name="PartBrushBlack" type="hex" data="20"/>
+			<value name="RightClick opens context menu" type="hex" data="02"/>
+			<value name="RightClickMacro2" type="string" data=""/>
+			<value name="SendAltTab" type="hex" data="00"/>
+			<value name="SendAltEsc" type="hex" data="00"/>
+			<value name="SendAltPrintScrn" type="hex" data="00"/>
+			<value name="SendPrintScrn" type="hex" data="00"/>
+			<value name="SendCtrlEsc" type="hex" data="00"/>
+			<value name="Min2Tray" type="hex" data="00"/>
+			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
+			<value name="SafeFarClose" type="hex" data="01"/>
+			<value name="SafeFarCloseMacro" type="string" data=""/>
+			<value name="FARuseASCIIsort" type="hex" data="00"/>
+			<value name="ShellNoZoneCheck" type="hex" data="00"/>
+			<value name="FixAltOnAltTab" type="hex" data="00"/>
+			<value name="UseAltGrayPlus" type="hex" data="01"/>
+			<value name="DisableMouse" type="hex" data="00"/>
+			<value name="RSelectionFix" type="hex" data="01"/>
+			<value name="MouseSkipActivation" type="hex" data="01"/>
+			<value name="MouseSkipMoving" type="hex" data="01"/>
+			<value name="MouseDragWindow" type="hex" data="01"/>
+			<value name="FarHourglass" type="hex" data="01"/>
+			<value name="FarHourglassDelay" type="ulong" data="500"/>
+			<value name="Dnd" type="hex" data="01"/>
+			<value name="DndDrop" type="hex" data="01"/>
+			<value name="DefCopy" type="hex" data="01"/>
+			<value name="DropUseMenu" type="hex" data="02"/>
+			<value name="DragOverlay" type="hex" data="01"/>
+			<value name="DragShowIcons" type="hex" data="01"/>
+			<value name="DebugSteps" type="hex" data="00"/>
+			<value name="DebugLog" type="hex" data="00"/>
+			<value name="DragPanel" type="hex" data="02"/>
+			<value name="DragPanelBothEdges" type="hex" data="00"/>
+			<value name="KeyBarRClick" type="hex" data="01"/>
+			<value name="StatusBar.Show" type="hex" data="01"/>
+			<value name="StatusBar.Flags" type="dword" data="00000002"/>
+			<value name="StatusFontFace" type="string" data="jetbr"/>
+			<value name="StatusFontCharSet" type="ulong" data="0"/>
+			<value name="StatusBar.Color.Back" type="dword" data="002a2a2a"/>
+			<value name="StatusBar.Color.Light" type="dword" data="00e3f6fd"/>
+			<value name="StatusBar.Color.Dark" type="dword" data="00a1a193"/>
+			<value name="StatusBar.Hide.VCon" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CapsL" type="hex" data="01"/>
+			<value name="StatusBar.Hide.NumL" type="hex" data="01"/>
+			<value name="StatusBar.Hide.ScrL" type="hex" data="01"/>
+			<value name="StatusBar.Hide.VisL" type="hex" data="01"/>
+			<value name="StatusBar.Hide.InputGrouping" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Lang" type="hex" data="01"/>
+			<value name="StatusBar.Hide.KeyHooks" type="hex" data="01"/>
+			<value name="StatusBar.Hide.TMode" type="hex" data="01"/>
+			<value name="StatusBar.Hide.RMode" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WPos" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WSize" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WClient" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WWork" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WVBack" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WVDC" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WMode" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Style" type="hex" data="01"/>
+			<value name="StatusBar.Hide.StyleEx" type="hex" data="01"/>
+			<value name="StatusBar.Hide.hFore" type="hex" data="01"/>
+			<value name="StatusBar.Hide.hFocus" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Zoom" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Dpi" type="hex" data="01"/>
+			<value name="StatusBar.Hide.ABuf" type="hex" data="00"/>
+			<value name="StatusBar.Hide.CPos" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CSize" type="hex" data="01"/>
+			<value name="StatusBar.Hide.BSize" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CurX" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CurY" type="hex" data="00"/>
+			<value name="StatusBar.Hide.CurS" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CurI" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CellI" type="hex" data="01"/>
+			<value name="StatusBar.Hide.ConEmuPID" type="hex" data="01"/>
+			<value name="StatusBar.Hide.ConEmuHWND" type="hex" data="01"/>
+			<value name="StatusBar.Hide.ConEmuView" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Srv" type="hex" data="01"/>
+			<value name="StatusBar.Hide.SrvHWND" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Transparency" type="hex" data="01"/>
+			<value name="StatusBar.Hide.New" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Sync" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Proc" type="hex" data="00"/>
+			<value name="StatusBar.Hide.Title" type="hex" data="00"/>
+			<value name="StatusBar.Hide.Time" type="hex" data="00"/>
+			<value name="StatusBar.Hide.Resize" type="hex" data="01"/>
+			<value name="Tabs" type="hex" data="00"/>
+			<value name="TabsLocation" type="hex" data="01"/>
+			<value name="TabIcons" type="hex" data="01"/>
+			<value name="OneTabPerGroup" type="hex" data="00"/>
+			<value name="ActivateSplitMouseOver" type="hex" data="01"/>
+			<value name="TabSelf" type="hex" data="01"/>
+			<value name="TabLazy" type="hex" data="01"/>
+			<value name="TabFlashChanged" type="long" data="8"/>
+			<value name="TabRecent" type="hex" data="01"/>
+			<value name="TabDblClick" type="ulong" data="1"/>
+			<value name="TabBtnDblClick" type="ulong" data="6"/>
+			<value name="TabsOnTaskBar" type="hex" data="02"/>
+			<value name="TaskBarOverlay" type="hex" data="01"/>
+			<value name="TaskbarProgress" type="hex" data="01"/>
+			<value name="TabCloseMacro" type="string" data=""/>
+			<value name="TabFontFace" type="string" data="Segoe UI"/>
+			<value name="TabFontCharSet" type="ulong" data="0"/>
+			<value name="SaveAllEditors" type="string" data=""/>
+			<value name="ToolbarAddSpace" type="long" data="0"/>
+			<value name="TabConsole" type="string" data="&lt;%c&gt; %s %n"/>
+			<value name="TabModifiedSuffix" type="string" data="[*]"/>
+			<value name="TabSkipWords" type="string" data="Administrator:|ÃÂÃÂ´ÃÂ¼ÃÂ¸ÃÂ½ÃÂ¸Ã‘ÂÃ‘â€šÃ‘â‚¬ÃÂ°Ã‘â€šÃÂ¾Ã‘â‚¬:"/>
+			<value name="TabPanels" type="string" data="&lt;%c&gt; %s"/>
+			<value name="TabEditor" type="string" data="&lt;%c.%i&gt;{%s}"/>
+			<value name="TabEditorModified" type="string" data="&lt;%c.%i&gt;[%s] *"/>
+			<value name="TabViewer" type="string" data="&lt;%c.%i&gt;[%s]"/>
+			<value name="TabLenMax" type="ulong" data="32"/>
+			<value name="AdminTitleSuffix" type="string" data=" (Admin)"/>
+			<value name="AdminShowShield" type="hex" data="01"/>
+			<value name="HideInactiveConsoleTabs" type="hex" data="00"/>
+			<value name="ShowFarWindows" type="hex" data="01"/>
+			<value name="TryToCenter" type="hex" data="01"/>
+			<value name="CenterConsolePad" type="ulong" data="4"/>
+			<value name="ShowScrollbar" type="hex" data="00"/>
+			<value name="ScrollBarAppearDelay" type="ulong" data="100"/>
+			<value name="ScrollBarDisappearDelay" type="ulong" data="1000"/>
+			<value name="IconID" type="ulong" data="1"/>
+			<value name="MainTimerElapse" type="ulong" data="10"/>
+			<value name="MainTimerInactiveElapse" type="ulong" data="1000"/>
+			<value name="AffinityMask" type="dword" data="00000000"/>
+			<value name="SkipFocusEvents" type="hex" data="00"/>
+			<value name="MonitorConsoleLang" type="hex" data="03"/>
+			<value name="SnapToDesktopEdges" type="hex" data="01"/>
+			<value name="AlwaysOnTop" type="hex" data="00"/>
+			<value name="SleepInBackground" type="hex" data="01"/>
+			<value name="RetardInactivePanes" type="hex" data="00"/>
+			<value name="MinimizeOnLoseFocus" type="hex" data="00"/>
+			<value name="DisableFarFlashing" type="hex" data="00"/>
+			<value name="DisableAllFlashing" type="hex" data="00"/>
+			<value name="FindText" type="string" data=""/>
+			<value name="FindMatchCase" type="hex" data="00"/>
+			<value name="FindMatchWholeWords" type="hex" data="00"/>
+			<value name="FindTransparent" type="hex" data="01"/>
+			<value name="PanView.BackColor" type="dword" data="30ffffff"/>
+			<value name="PanView.PFrame" type="long" data="1"/>
+			<value name="PanView.PFrameColor" type="dword" data="28808080"/>
+			<value name="PanView.SFrame" type="long" data="1"/>
+			<value name="PanView.SFrameColor" type="dword" data="07c0c0c0"/>
+			<value name="PanView.Thumbs.ImgSize" type="long" data="96"/>
+			<value name="PanView.Thumbs.SpaceX1" type="long" data="1"/>
+			<value name="PanView.Thumbs.SpaceY1" type="long" data="1"/>
+			<value name="PanView.Thumbs.SpaceX2" type="long" data="5"/>
+			<value name="PanView.Thumbs.SpaceY2" type="long" data="20"/>
+			<value name="PanView.Thumbs.LabelSpacing" type="long" data="2"/>
+			<value name="PanView.Thumbs.LabelPadding" type="long" data="0"/>
+			<value name="PanView.Thumbs.FontName" type="string" data="Segoe UI"/>
+			<value name="PanView.Thumbs.FontHeight" type="long" data="14"/>
+			<value name="PanView.Tiles.ImgSize" type="long" data="48"/>
+			<value name="PanView.Tiles.SpaceX1" type="long" data="4"/>
+			<value name="PanView.Tiles.SpaceY1" type="long" data="4"/>
+			<value name="PanView.Tiles.SpaceX2" type="long" data="172"/>
+			<value name="PanView.Tiles.SpaceY2" type="long" data="4"/>
+			<value name="PanView.Tiles.LabelSpacing" type="long" data="4"/>
+			<value name="PanView.Tiles.LabelPadding" type="long" data="1"/>
+			<value name="PanView.Tiles.FontName" type="string" data="Segoe UI"/>
+			<value name="PanView.Tiles.FontHeight" type="long" data="14"/>
+			<value name="PanView.LoadPreviews" type="hex" data="03"/>
+			<value name="PanView.LoadFolders" type="hex" data="01"/>
+			<value name="PanView.LoadTimeout" type="ulong" data="15"/>
+			<value name="PanView.MaxZoom" type="ulong" data="600"/>
+			<value name="PanView.UsePicView2" type="hex" data="01"/>
+			<value name="PanView.RestoreOnStartup" type="hex" data="00"/>
+			<value name="Update.VerLocation" type="string" data=""/>
+			<value name="Update.InetTool" type="hex" data="00"/>
+			<value name="Update.InetToolCmd" type="string" data=""/>
+			<value name="Update.UseProxy" type="hex" data="00"/>
+			<value name="Update.Proxy" type="string" data=""/>
+			<value name="Update.ProxyUser" type="string" data=""/>
+			<value name="Update.ProxyPassword" type="string" data=""/>
+			<value name="Update.ExeCmdLine" type="string" data=""/>
+			<value name="Update.ArcCmdLine" type="string" data=""/>
+			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
+			<value name="Update.LeavePackages" type="hex" data="00"/>
+			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
+			<key name="Tasks" modified="2019-12-09 12:20:32" build="191012">
 				<value name="Count" type="long" data="13"/>
-				<key name="Task1" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task1" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Git Bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -611,7 +622,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='"%ProgramFiles%\Git\bin\sh.exe" --login -i'/>
 				</key>
-				<key name="Task2" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task2" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000002"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -620,7 +631,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task3" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task3" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -629,7 +640,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:a'/>
 				</key>
-				<key name="Task4" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task4" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -638,7 +649,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='"%windir%\syswow64\cmd.exe" /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task5" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task5" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -648,7 +659,7 @@
 					<value name="Cmd1" type="string" data='&gt; "%windir%\system32\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is Native cmd.exe"'/>
 					<value name="Cmd2" type="string" data='"%windir%\syswow64\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is 32 bit cmd.exe -new_console:s50V"'/>
 				</key>
-				<key name="Task6" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task6" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -657,7 +668,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
 				</key>
-				<key name="Task7" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task7" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -666,7 +677,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe -new_console:a"/>
 				</key>
-				<key name="Task8" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task8" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Bash::CygWin bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -675,7 +686,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='set CHERE_INVOKING=1 &amp; set "PATH=%ConEmuDrive%\_apps\cygwin64\bin;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe -new_console:p %ConEmuDrive%\_apps\cygwin64\bin\bash.exe --login -i -new_console:C:"%ConEmuDrive%\_apps\cygwin64\Cygwin.ico"'/>
 				</key>
-				<key name="Task9" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task9" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -684,7 +695,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='set "PATH=%ConEmuDir%\..\Git\usr\bin;%PATH%" &amp; "%ConEmuDir%\..\Git\git-cmd.exe" --no-cd --command=%ConEmuBaseDirShort%\conemu-msys2-64.exe /usr/bin/bash.exe -l -i -new_console:p'/>
 				</key>
-				<key name="Task10" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task10" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -693,7 +704,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k type "%ConEmuBaseDir%\Addons\AnsiColors16t.ans" -cur_console:n'/>
 				</key>
-				<key name="Task11" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task11" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{SDK::VS 14.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -702,7 +713,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd /k ""%ConEmuDrive%\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" x86 -new_console:t:"VS 14.0" -new_console:C:"%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,33"'/>
 				</key>
-				<key name="Task12" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task12" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{SDK::VS 14.0 x64 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -711,7 +722,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd /k ""%ConEmuDrive%\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" x64 -new_console:t:"VS 14.0" -new_console:C:"%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,33"'/>
 				</key>
-				<key name="Task13" modified="2019-03-03 21:02:51" build="190225">
+				<key name="Task13" modified="2019-12-09 12:20:32" build="191012">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -721,24 +732,365 @@
 					<value name="Cmd1" type="string" data='*cmd.exe /k Title Chocolatey &amp; "%ConEmuBaseDir%\Addons\ChocolateyAbout.cmd"'/>
 				</key>
 			</key>
-			<key name="Apps" modified="2019-03-03 21:02:51" build="190225">
+			<key name="Apps" modified="2019-12-09 12:20:32" build="191012">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2019-03-03 21:02:51" build="190225">
-				<value name="Count" type="long" data="1"/>
-				<key name="Palette1" modified="2019-03-03 21:02:51" build="190225">
-					<value name="Name" type="string" data="m01"/>
+			<key name="Colors" modified="2019-12-09 12:20:32" build="191012">
+				<value name="Count" type="long" data="28"/>
+				<key name="Palette1" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="ayu Dark"/>
 					<value name="TextColorIdx" type="hex" data="10"/>
 					<value name="BackColorIdx" type="hex" data="10"/>
 					<value name="PopTextColorIdx" type="hex" data="10"/>
 					<value name="PopBackColorIdx" type="hex" data="10"/>
-					<value name="ColorTable00" type="dword" data="00181818"/>
+					<value name="ColorTable00" type="dword" data="00151515"/>
+					<value name="ColorTable01" type="dword" data="00ffaa82"/>
+					<value name="ColorTable02" type="dword" data="00187626"/>
+					<value name="ColorTable03" type="dword" data="00d6ccb2"/>
+					<value name="ColorTable04" type="dword" data="000098ff"/>
+					<value name="ColorTable05" type="dword" data="00b380bb"/>
+					<value name="ColorTable06" type="dword" data="006779ab"/>
+					<value name="ColorTable07" type="dword" data="00ffffee"/>
+					<value name="ColorTable08" type="dword" data="00b8b0a1"/>
+					<value name="ColorTable09" type="dword" data="00ffaa82"/>
+					<value name="ColorTable10" type="dword" data="008de8c3"/>
+					<value name="ColorTable11" type="dword" data="00ffdd89"/>
+					<value name="ColorTable12" type="dword" data="007053ff"/>
+					<value name="ColorTable13" type="dword" data="007871f0"/>
+					<value name="ColorTable14" type="dword" data="006bcbff"/>
+					<value name="ColorTable15" type="dword" data="00f5f5f5"/>
+				</key>
+				<key name="Palette2" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="ayu Light"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00fafafa"/>
+					<value name="ColorTable01" type="dword" data="006c6761"/>
+					<value name="ColorTable02" type="dword" data="004dbf99"/>
+					<value name="ColorTable03" type="dword" data="0000b386"/>
+					<value name="ColorTable04" type="dword" data="008379f2"/>
+					<value name="ColorTable05" type="dword" data="007171f0"/>
+					<value name="ColorTable06" type="dword" data="001897f2"/>
+					<value name="ColorTable07" type="dword" data="0080766c"/>
+					<value name="ColorTable08" type="dword" data="00326efa"/>
+					<value name="ColorTable09" type="dword" data="00e69e39"/>
+					<value name="ColorTable10" type="dword" data="0000b386"/>
+					<value name="ColorTable11" type="dword" data="00d4b455"/>
+					<value name="ColorTable12" type="dword" data="001818f5"/>
+					<value name="ColorTable13" type="dword" data="00cc7aa3"/>
+					<value name="ColorTable14" type="dword" data="00408fff"/>
+					<value name="ColorTable15" type="dword" data="00cc7aa3"/>
+				</key>
+				<key name="Palette3" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="ayu Mirage"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00332721"/>
+					<value name="ColorTable01" type="dword" data="00c2c9cc"/>
+					<value name="ColorTable02" type="dword" data="00cbe695"/>
+					<value name="ColorTable03" type="dword" data="007ee6ba"/>
+					<value name="ColorTable04" type="dword" data="003333ff"/>
+					<value name="ColorTable05" type="dword" data="007987f2"/>
+					<value name="ColorTable06" type="dword" data="0080d5ff"/>
+					<value name="ColorTable07" type="dword" data="00c2c9cc"/>
+					<value name="ColorTable08" type="dword" data="0059a7ff"/>
+					<value name="ColorTable09" type="dword" data="00ffd073"/>
+					<value name="ColorTable10" type="dword" data="007ee6ba"/>
+					<value name="ColorTable11" type="dword" data="00e6cf5c"/>
+					<value name="ColorTable12" type="dword" data="003333ff"/>
+					<value name="ColorTable13" type="dword" data="00ffbfd4"/>
+					<value name="ColorTable14" type="dword" data="0066ccff"/>
+					<value name="ColorTable15" type="dword" data="00ffbfd4"/>
+				</key>
+				<key name="Palette4" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="base16-ocean-dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="003b302b"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00b3a18f"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="008cbea3"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="008cbea3"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="006a61bf"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="00ad8eb4"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="007087d0"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00cec5c0"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="007e7365"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00b3a18f"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="008cbea3"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00b3a18f"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="006a61bf"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="006a61bf"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="008bcbeb"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="007087d0"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette5" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="base16-railscasts-dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="002b2b2b"/>
+					<value name="ColorTable01" type="dword" data="007e645a"/>
+					<value name="ColorTable02" type="dword" data="0061c2a5"/>
+					<value name="ColorTable03" type="dword" data="0061c2a5"/>
+					<value name="ColorTable04" type="dword" data="003949da"/>
+					<value name="ColorTable05" type="dword" data="00ebb3b6"/>
+					<value name="ColorTable06" type="dword" data="005894bc"/>
+					<value name="ColorTable07" type="dword" data="00dce1e6"/>
+					<value name="ColorTable08" type="dword" data="00c9cfd4"/>
+					<value name="ColorTable09" type="dword" data="00be9c6d"/>
+					<value name="ColorTable10" type="dword" data="0061c2a5"/>
+					<value name="ColorTable11" type="dword" data="00509f51"/>
+					<value name="ColorTable12" type="dword" data="003949da"/>
+					<value name="ColorTable13" type="dword" data="003949da"/>
+					<value name="ColorTable14" type="dword" data="006dc6ff"/>
+					<value name="ColorTable15" type="dword" data="003378cc"/>
+				</key>
+				<key name="Palette6" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="base16-railscasts-light"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00f3f7f9"/>
+					<value name="ColorTable01" type="dword" data="007e645a"/>
+					<value name="ColorTable02" type="dword" data="0061c2a5"/>
+					<value name="ColorTable03" type="dword" data="0061c2a5"/>
+					<value name="ColorTable04" type="dword" data="003949da"/>
+					<value name="ColorTable05" type="dword" data="00ebb3b6"/>
+					<value name="ColorTable06" type="dword" data="005894bc"/>
+					<value name="ColorTable07" type="dword" data="0055403a"/>
+					<value name="ColorTable08" type="dword" data="00352927"/>
+					<value name="ColorTable09" type="dword" data="00be9c6d"/>
+					<value name="ColorTable10" type="dword" data="0061c2a5"/>
+					<value name="ColorTable11" type="dword" data="00509f51"/>
+					<value name="ColorTable12" type="dword" data="003949da"/>
+					<value name="ColorTable13" type="dword" data="003949da"/>
+					<value name="ColorTable14" type="dword" data="006dc6ff"/>
+					<value name="ColorTable15" type="dword" data="003378cc"/>
+				</key>
+				<key name="Palette7" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Chalk"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="002e2c2b"/>
+					<value name="ColorTable01" type="dword" data="00ac7f2a"/>
+					<value name="ColorTable02" type="dword" data="00699a78"/>
+					<value name="ColorTable03" type="dword" data="0099a744"/>
+					<value name="ColorTable04" type="dword" data="00513ab2"/>
+					<value name="ColorTable05" type="dword" data="005a4fbc"/>
+					<value name="ColorTable06" type="dword" data="004aabb9"/>
+					<value name="ColorTable07" type="dword" data="00d9d8d2"/>
+					<value name="ColorTable08" type="dword" data="00888888"/>
+					<value name="ColorTable09" type="dword" data="00ff9540"/>
+					<value name="ColorTable10" type="dword" data="006fc480"/>
+					<value name="ColorTable11" type="dword" data="00bdcc52"/>
+					<value name="ColorTable12" type="dword" data="004048f2"/>
+					<value name="ColorTable13" type="dword" data="007551fb"/>
+					<value name="ColorTable14" type="dword" data="0062ebff"/>
+					<value name="ColorTable15" type="dword" data="00d9d8d2"/>
+				</key>
+				<key name="Palette8" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="dark-room-red"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00000000"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="0000c8c8"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="000f69e3"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="00dfdfdf"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="0005057a"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="0000009b"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="005a5abe"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="000000ff"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00e64f53"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="008c8c8c"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="00ffff80"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="0098a12a"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="002f32dc"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="008236d3"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="000089b5"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="009d9dff"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette9" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Default"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="10"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="0040342e"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00ac815e"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="008cbea3"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="00bbbc8f"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="007087d0"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="00ad8eb4"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="008bcbeb"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00e9ded8"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00f0e9e5"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00c1a181"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="008cbea3"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00d0c088"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="006a61bf"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="00ad8eb4"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="008bcbeb"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="00f4efec"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette10" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Dracula"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="10"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00482a28"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00cc6374"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="003dde66"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="00fbd677"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="003c3cee"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="00f993dd"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="006cb8ff"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00dee4e4"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00969a9a"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00c47262"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="007bfa50"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00fde98b"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="005555ff"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="00c679ff"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="008cfcfc"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="00f2f8f8"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette11" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="gruvbox-dark"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="10"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00282828"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00758392"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="001a9798"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="0037bab8"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="001d24cc"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="008662b1"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="002d80fc"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00b4daeb"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="008499a8"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="0098a584"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="0037bab8"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="007fbf8f"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="003c4bf8"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="009b87d2"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="0041bcf9"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="009b87d2"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette12" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="m01"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="0e"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00262525"/>
 					<value name="ColorTable01" type="dword" data="00a46534"/>
 					<value name="ColorTable02" type="dword" data="00069a4e"/>
 					<value name="ColorTable03" type="dword" data="009a9806"/>
 					<value name="ColorTable04" type="dword" data="000000cc"/>
-					<value name="ColorTable05" type="dword" data="009d6a96"/>
-					<value name="ColorTable06" type="dword" data="00129cf3"/>
+					<value name="ColorTable05" type="dword" data="007b5075"/>
+					<value name="ColorTable06" type="dword" data="0000a0c4"/>
 					<value name="ColorTable07" type="dword" data="00cfd7d3"/>
 					<value name="ColorTable08" type="dword" data="00535755"/>
 					<value name="ColorTable09" type="dword" data="00cf9f72"/>
@@ -748,6 +1100,426 @@
 					<value name="ColorTable13" type="dword" data="00a87fad"/>
 					<value name="ColorTable14" type="dword" data="004fe9fc"/>
 					<value name="ColorTable15" type="dword" data="00eceeee"/>
+				</key>
+				<key name="Palette13" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Material (Emacs) light"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="0e"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00fafafa"/>
+					<value name="ColorTable01" type="dword" data="00aea490"/>
+					<value name="ColorTable02" type="dword" data="002f8b55"/>
+					<value name="ColorTable03" type="dword" data="006b7900"/>
+					<value name="ColorTable04" type="dword" data="001c1cb7"/>
+					<value name="ColorTable05" type="dword" data="00b73a67"/>
+					<value name="ColorTable06" type="dword" data="00006cef"/>
+					<value name="ColorTable07" type="dword" data="00212121"/>
+					<value name="ColorTable08" type="dword" data="008b7d60"/>
+					<value name="ColorTable09" type="dword" data="00f39621"/>
+					<value name="ColorTable10" type="dword" data="00389f68"/>
+					<value name="ColorTable11" type="dword" data="00a79700"/>
+					<value name="ColorTable12" type="dword" data="001c1cb7"/>
+					<value name="ColorTable13" type="dword" data="00631ee9"/>
+					<value name="ColorTable14" type="dword" data="0000a0ff"/>
+					<value name="ColorTable15" type="dword" data="00baada7"/>
+				</key>
+				<key name="Palette14" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Material (Sublime) darker"/>
+					<value name="ExtendColors" type="hex" data="00"/>
+					<value name="ExtendColorIdx" type="hex" data="0e"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00151515"/>
+					<value name="ColorTable01" type="dword" data="004a4a4a"/>
+					<value name="ColorTable02" type="dword" data="008de8c3"/>
+					<value name="ColorTable03" type="dword" data="008de8c3"/>
+					<value name="ColorTable04" type="dword" data="007053ff"/>
+					<value name="ColorTable05" type="dword" data="00ea92c7"/>
+					<value name="ColorTable06" type="dword" data="006c8cf7"/>
+					<value name="ColorTable07" type="dword" data="00ffffee"/>
+					<value name="ColorTable08" type="dword" data="00d6ccb2"/>
+					<value name="ColorTable09" type="dword" data="00ffaa82"/>
+					<value name="ColorTable10" type="dword" data="008de8c3"/>
+					<value name="ColorTable11" type="dword" data="00ffdd89"/>
+					<value name="ColorTable12" type="dword" data="007053ff"/>
+					<value name="ColorTable13" type="dword" data="007871f0"/>
+					<value name="ColorTable14" type="dword" data="006bcbff"/>
+					<value name="ColorTable15" type="dword" data="006c8cf7"/>
+				</key>
+				<key name="Palette15" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Material Shell (Dark)"/>
+					<value name="TextColorIdx" type="hex" data="06"/>
+					<value name="BackColorIdx" type="hex" data="00"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="00"/>
+					<value name="ColorTable00" type="dword" data="00151515"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="004f4737"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="00645a45"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="00716f5d"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="000098ff"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="00ffc440"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="00b8b0a1"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00f5f5f5"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00b8b0a1"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00f5a542"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="002cd8c3"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00c1ac00"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="003e44ff"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="00601bd8"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="0035c1ff"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="00f5f5f5"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette16" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Material Shell (Ocean)"/>
+					<value name="TextColorIdx" type="hex" data="06"/>
+					<value name="BackColorIdx" type="hex" data="00"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="00"/>
+					<value name="ColorTable00" type="dword" data="00383226"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00151515"/>
+					<!-- DarkBlue (Module names in Jupyter) -->
+					<value name="ColorTable02" type="dword" data="00645a45"/>
+					<!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+					<value name="ColorTable03" type="dword" data="00716f5d"/>
+					<!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+					<value name="ColorTable04" type="dword" data="000098ff"/>
+					<!-- DarkRed (Diff remove in Git) -->
+					<value name="ColorTable05" type="dword" data="00ffff18"/>
+					<!-- DarkMagenta (Setup questions in Sphinx) -->
+					<value name="ColorTable06" type="dword" data="00b8b0a1"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00f5f5f5"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00b8b0a1"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00ffc440"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="0039dccd"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00c1ac00"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="005252ff"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="008140ff"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="0035c1ff"/>
+					<!-- Yellow (Exception in IPython) -->
+					<value name="ColorTable15" type="dword" data="00f5f5f5"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette17" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="moe-dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00303030"/>
+					<value name="ColorTable01" type="dword" data="00ff5b1f"/>
+					<value name="ColorTable02" type="dword" data="0000ffaf"/>
+					<value name="ColorTable03" type="dword" data="00ffff87"/>
+					<value name="ColorTable04" type="dword" data="002929ef"/>
+					<value name="ColorTable05" type="dword" data="00ff8ad1"/>
+					<value name="ColorTable06" type="dword" data="000087ff"/>
+					<value name="ColorTable07" type="dword" data="00c6c6c6"/>
+					<value name="ColorTable08" type="dword" data="00b2b2b2"/>
+					<value name="ColorTable09" type="dword" data="00d7af5f"/>
+					<value name="ColorTable10" type="dword" data="0000dba1"/>
+					<value name="ColorTable11" type="dword" data="00afd700"/>
+					<value name="ColorTable12" type="dword" data="004b4bff"/>
+					<value name="ColorTable13" type="dword" data="00a34eff"/>
+					<value name="ColorTable14" type="dword" data="004fe9fc"/>
+					<value name="ColorTable15" type="dword" data="00e7fdfd"/>
+				</key>
+				<key name="Palette18" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="moe-light"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00e7fdfd"/>
+					<value name="ColorTable01" type="dword" data="00ffe5d4"/>
+					<value name="ColorTable02" type="dword" data="0000af00"/>
+					<value name="ColorTable03" type="dword" data="0087af00"/>
+					<value name="ColorTable04" type="dword" data="000000dd"/>
+					<value name="ColorTable05" type="dword" data="00ff089a"/>
+					<value name="ColorTable06" type="dword" data="003387fe"/>
+					<value name="ColorTable07" type="dword" data="00626262"/>
+					<value name="ColorTable08" type="dword" data="00b2b2b2"/>
+					<value name="ColorTable09" type="dword" data="00ff5b1f"/>
+					<value name="ColorTable10" type="dword" data="0000af00"/>
+					<value name="ColorTable11" type="dword" data="00d7af5f"/>
+					<value name="ColorTable12" type="dword" data="002929ef"/>
+					<value name="ColorTable13" type="dword" data="008b1fff"/>
+					<value name="ColorTable14" type="dword" data="003387fe"/>
+					<value name="ColorTable15" type="dword" data="00303030"/>
+				</key>
+				<key name="Palette19" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="monokai"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00222827"/>
+					<value name="ColorTable01" type="dword" data="005e7175"/>
+					<value name="ColorTable02" type="dword" data="002ee2a6"/>
+					<value name="ColorTable03" type="dword" data="0074dbe6"/>
+					<value name="ColorTable04" type="dword" data="001f97fd"/>
+					<value name="ColorTable05" type="dword" data="00ff81ae"/>
+					<value name="ColorTable06" type="dword" data="001f97fd"/>
+					<value name="ColorTable07" type="dword" data="00f2f8f8"/>
+					<value name="ColorTable08" type="dword" data="007226f9"/>
+					<value name="ColorTable09" type="dword" data="00efd966"/>
+					<value name="ColorTable10" type="dword" data="002ee2a6"/>
+					<value name="ColorTable11" type="dword" data="00e4efa1"/>
+					<value name="ColorTable12" type="dword" data="003366cc"/>
+					<value name="ColorTable13" type="dword" data="007226f9"/>
+					<value name="ColorTable14" type="dword" data="0075bff4"/>
+					<value name="ColorTable15" type="dword" data="00ff81ae"/>
+				</key>
+				<key name="Palette20" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Oceans16 Dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00453830"/>
+					<value name="ColorTable01" type="dword" data="00b17f66"/>
+					<value name="ColorTable02" type="dword" data="0065ac02"/>
+					<value name="ColorTable03" type="dword" data="0098c18f"/>
+					<value name="ColorTable04" type="dword" data="006a61bf"/>
+					<value name="ColorTable05" type="dword" data="00eca6ca"/>
+					<value name="ColorTable06" type="dword" data="008eaaef"/>
+					<value name="ColorTable07" type="dword" data="00e6d4d0"/>
+					<value name="ColorTable08" type="dword" data="00b09788"/>
+					<value name="ColorTable09" type="dword" data="00e7ab77"/>
+					<value name="ColorTable10" type="dword" data="009aca8f"/>
+					<value name="ColorTable11" type="dword" data="00c0c67b"/>
+					<value name="ColorTable12" type="dword" data="009491e3"/>
+					<value name="ColorTable13" type="dword" data="007c79db"/>
+					<value name="ColorTable14" type="dword" data="00a3d7dd"/>
+					<value name="ColorTable15" type="dword" data="00e6d4d0"/>
+				</key>
+				<key name="Palette21" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="One Dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00342c28"/>
+					<value name="ColorTable01" type="dword" data="0070635c"/>
+					<value name="ColorTable02" type="dword" data="0079c398"/>
+					<value name="ColorTable03" type="dword" data="0079c398"/>
+					<value name="ColorTable04" type="dword" data="004650be"/>
+					<value name="ColorTable05" type="dword" data="00dd78c6"/>
+					<value name="ColorTable06" type="dword" data="00669ad1"/>
+					<value name="ColorTable07" type="dword" data="00bfb2ab"/>
+					<value name="ColorTable08" type="dword" data="00697374"/>
+					<value name="ColorTable09" type="dword" data="00efaf61"/>
+					<value name="ColorTable10" type="dword" data="0079c398"/>
+					<value name="ColorTable11" type="dword" data="00c2b656"/>
+					<value name="ColorTable12" type="dword" data="00756ce0"/>
+					<value name="ColorTable13" type="dword" data="007a77f2"/>
+					<value name="ColorTable14" type="dword" data="005791f9"/>
+					<value name="ColorTable15" type="dword" data="00939fa0"/>
+				</key>
+				<key name="Palette22" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="One Light"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00fafafa"/>
+					<value name="ColorTable01" type="dword" data="00423a38"/>
+					<value name="ColorTable02" type="dword" data="004fa150"/>
+					<value name="ColorTable03" type="dword" data="004fa150"/>
+					<value name="ColorTable04" type="dword" data="004312ca"/>
+					<value name="ColorTable05" type="dword" data="00a426a6"/>
+					<value name="ColorTable06" type="dword" data="00016898"/>
+					<value name="ColorTable07" type="dword" data="00423a38"/>
+					<value name="ColorTable08" type="dword" data="00a7a1a0"/>
+					<value name="ColorTable09" type="dword" data="00f27840"/>
+					<value name="ColorTable10" type="dword" data="004fa150"/>
+					<value name="ColorTable11" type="dword" data="00bc8401"/>
+					<value name="ColorTable12" type="dword" data="004956e4"/>
+					<value name="ColorTable13" type="dword" data="00a426a6"/>
+					<value name="ColorTable14" type="dword" data="00016898"/>
+					<value name="ColorTable15" type="dword" data="00016898"/>
+				</key>
+				<key name="Palette23" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Rusty"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00282828"/>
+					<value name="ColorTable01" type="dword" data="00383f47"/>
+					<value name="ColorTable02" type="dword" data="00188d8d"/>
+					<value name="ColorTable03" type="dword" data="003a6594"/>
+					<value name="ColorTable04" type="dword" data="001b3db1"/>
+					<value name="ColorTable05" type="dword" data="008662b1"/>
+					<value name="ColorTable06" type="dword" data="00257bfc"/>
+					<value name="ColorTable07" type="dword" data="0092cae4"/>
+					<value name="ColorTable08" type="dword" data="00264362"/>
+					<value name="ColorTable09" type="dword" data="00798864"/>
+					<value name="ColorTable10" type="dword" data="0086dbd9"/>
+					<value name="ColorTable11" type="dword" data="007fbf8f"/>
+					<value name="ColorTable12" type="dword" data="003c4bf8"/>
+					<value name="ColorTable13" type="dword" data="009b87d2"/>
+					<value name="ColorTable14" type="dword" data="00c877f9"/>
+					<value name="ColorTable15" type="dword" data="00e9bccf"/>
+				</key>
+				<key name="Palette24" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Solarized Dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00362b00"/>
+					<value name="ColorTable01" type="dword" data="00756e58"/>
+					<value name="ColorTable02" type="dword" data="00009985"/>
+					<value name="ColorTable03" type="dword" data="0098a12a"/>
+					<value name="ColorTable04" type="dword" data="002f32dc"/>
+					<value name="ColorTable05" type="dword" data="00c4716c"/>
+					<value name="ColorTable06" type="dword" data="00164bcb"/>
+					<value name="ColorTable07" type="dword" data="00969483"/>
+					<value name="ColorTable08" type="dword" data="00586e75"/>
+					<value name="ColorTable09" type="dword" data="00d28b26"/>
+					<value name="ColorTable10" type="dword" data="00009985"/>
+					<value name="ColorTable11" type="dword" data="0098a12a"/>
+					<value name="ColorTable12" type="dword" data="002f32dc"/>
+					<value name="ColorTable13" type="dword" data="008236d3"/>
+					<value name="ColorTable14" type="dword" data="000089b5"/>
+					<value name="ColorTable15" type="dword" data="00a1a193"/>
+				</key>
+				<key name="Palette25" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Solarized Light"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00e3f6fd"/>
+					<value name="ColorTable01" type="dword" data="00756e58"/>
+					<value name="ColorTable02" type="dword" data="00009985"/>
+					<value name="ColorTable03" type="dword" data="0098a12a"/>
+					<value name="ColorTable04" type="dword" data="002f32dc"/>
+					<value name="ColorTable05" type="dword" data="00c4716c"/>
+					<value name="ColorTable06" type="dword" data="00164bcb"/>
+					<value name="ColorTable07" type="dword" data="00837b65"/>
+					<value name="ColorTable08" type="dword" data="00586e75"/>
+					<value name="ColorTable09" type="dword" data="00d28b26"/>
+					<value name="ColorTable10" type="dword" data="00009985"/>
+					<value name="ColorTable11" type="dword" data="0098a12a"/>
+					<value name="ColorTable12" type="dword" data="002f32dc"/>
+					<value name="ColorTable13" type="dword" data="008236d3"/>
+					<value name="ColorTable14" type="dword" data="000089b5"/>
+					<value name="ColorTable15" type="dword" data="00756e58"/>
+				</key>
+				<key name="Palette26" modified="2020-08-06 15:57:00" build="200615">
+					<value name="Name" type="string" data="Spacemacs-dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="002e2b29"/>
+					<value name="ColorTable01" type="dword" data="00aea12a"/>
+					<value name="ColorTable02" type="dword" data="002fdc86"/>
+					<value name="ColorTable03" type="dword" data="0074952d"/>
+					<value name="ColorTable04" type="dword" data="001d21e0"/>
+					<value name="ColorTable05" type="dword" data="00c56ebc"/>
+					<value name="ColorTable06" type="dword" data="002f75dc"/>
+					<value name="ColorTable07" type="dword" data="00b2b2b2"/>
+					<value name="ColorTable08" type="dword" data="00ad5ba4"/>
+					<value name="ColorTable09" type="dword" data="00d7974f"/>
+					<value name="ColorTable10" type="dword" data="001db167"/>
+					<value name="ColorTable11" type="dword" data="00f0de28"/>
+					<value name="ColorTable12" type="dword" data="001f24f2"/>
+					<value name="ColorTable13" type="dword" data="007a53ce"/>
+					<value name="ColorTable14" type="dword" data="001d95b1"/>
+					<value name="ColorTable15" type="dword" data="00b2b2b2"/>
+				</key>
+				<key name="Palette27" modified="2015-04-05 12:51:32" build="150305">
+					<value name="Name" type="string" data="Tango Dark"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00000000"/>
+					<!-- Black (Background) -->
+					<value name="ColorTable01" type="dword" data="00a46534"/>
+					<!-- DarkBlue (IPython Module Name) -->
+					<value name="ColorTable02" type="dword" data="00069a4e"/>
+					<!-- DarkGreen (Git diff add) -->
+					<value name="ColorTable03" type="dword" data="009a9806"/>
+					<!-- DarkCyan (String, Comments) -->
+					<value name="ColorTable04" type="dword" data="000000cc"/>
+					<!-- DarkRed (Git diff remove) -->
+					<value name="ColorTable05" type="dword" data="007b5075"/>
+					<!-- DarkMagenta -->
+					<value name="ColorTable06" type="dword" data="0000a0c4"/>
+					<!-- DarkYellow -->
+					<value name="ColorTable07" type="dword" data="00cfd7d3"/>
+					<!-- Gray (Default Text) -->
+					<value name="ColorTable08" type="dword" data="00535755"/>
+					<!-- DarkGray (Parameters) -->
+					<value name="ColorTable09" type="dword" data="00cf9f72"/>
+					<!-- Blue -->
+					<value name="ColorTable10" type="dword" data="0034e28a"/>
+					<!-- Green -->
+					<value name="ColorTable11" type="dword" data="00e2e234"/>
+					<!-- Cyan -->
+					<value name="ColorTable12" type="dword" data="002929ef"/>
+					<!-- Red -->
+					<value name="ColorTable13" type="dword" data="00a87fad"/>
+					<!-- Magenta -->
+					<value name="ColorTable14" type="dword" data="004fe9fc"/>
+					<!-- Yellow -->
+					<value name="ColorTable15" type="dword" data="00eceeee"/>
+					<!-- White (Number, Git diff text) -->
+				</key>
+				<key name="Palette28" modified="2018-09-03 13:29:16" build="180626">
+					<value name="Name" type="string" data="XFCE-white-on-black"/>
+					<value name="TextColorIdx" type="hex" data="10"/>
+					<value name="BackColorIdx" type="hex" data="10"/>
+					<value name="PopTextColorIdx" type="hex" data="10"/>
+					<value name="PopBackColorIdx" type="hex" data="10"/>
+					<value name="ColorTable00" type="dword" data="00ffffff"/>
+					<value name="ColorTable01" type="dword" data="00aa0000"/>
+					<value name="ColorTable02" type="dword" data="0000aa00"/>
+					<value name="ColorTable03" type="dword" data="00aaaa00"/>
+					<value name="ColorTable04" type="dword" data="000000aa"/>
+					<value name="ColorTable05" type="dword" data="00aa00aa"/>
+					<value name="ColorTable06" type="dword" data="000055aa"/>
+					<value name="ColorTable07" type="dword" data="00000000"/>
+					<value name="ColorTable08" type="dword" data="00555555"/>
+					<value name="ColorTable09" type="dword" data="00ff5555"/>
+					<value name="ColorTable10" type="dword" data="0000cc00"/>
+					<value name="ColorTable11" type="dword" data="00cccc44"/>
+					<value name="ColorTable12" type="dword" data="005555ff"/>
+					<value name="ColorTable13" type="dword" data="00ff55ff"/>
+					<value name="ColorTable14" type="dword" data="0000cbcb"/>
+					<value name="ColorTable15" type="dword" data="00aaaaaa"/>
 				</key>
 			</key>
 		</key>
